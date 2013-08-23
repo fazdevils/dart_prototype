@@ -8,13 +8,26 @@ class Location {
   
   Location(this.locationId, this.name, this.address, this.zones);
   
+  // XML
+  static List<Location> readXmlLocationList(String xmlString) {
+    
+    XmlElement xmlTree = XML.parse(xmlString);
+    List<Location> locationList = new List<Location>();
+    
+    for (XmlElement locationElement in xmlTree.queryAll("location")) {
+      locationList.add(new Location._xmlTree(locationElement));
+    }
+    return locationList;
+  }
+
   factory Location.xml(String xmlString) {
     XmlElement xmlTree = XML.parse(xmlString);
     
-    return new Location.xmlTree(xmlTree);
+    return new Location._xmlTree(xmlTree);
   }
 
-  factory Location.xmlTree(XmlElement xmlTree) {
+  // XML Private
+  factory Location._xmlTree(XmlElement xmlTree) {
     int locationId = int.parse(xmlTree.attributes['id']);
     String name = xmlTree.attributes['name'];
     String address = _getXmlValue(xmlTree, "address");
