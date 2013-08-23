@@ -1,0 +1,8 @@
+name: dart_prototype
+description: A sample WebUI application
+dependencies:
+  browser: any
+  js: any
+  xml: any
+  web_ui: any
+  
