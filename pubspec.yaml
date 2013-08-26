@@ -1,6 +1,7 @@
 name: dart_prototype
 description: A sample Dart application
 dependencies:
+  async: any
   browser: any
   js: any
   web_ui: any

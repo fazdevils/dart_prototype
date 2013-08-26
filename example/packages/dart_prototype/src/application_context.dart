@@ -2,8 +2,11 @@ part of prototype_library;
 
 class ApplicationContext {
   
-  
-  
+  final WebService locationService;
+
+  ApplicationContext(
+      this.locationService);
+      
 }
 
-final ApplicationContext applicationContext = new ApplicationContext();
+ApplicationContext applicationContext;

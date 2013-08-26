@@ -1,7 +1,7 @@
  part of prototype_library;
  
  class LocationXmlFactory extends Factory<Location, String>{
-  
+   
    Location create(String xmlString) {
      XmlElement xmlTree = XML.parse(xmlString);
      

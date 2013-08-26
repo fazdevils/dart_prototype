@@ -9,6 +9,10 @@ packages:
     description: args
     source: hosted
     version: "0.6.19"
+  async:
+    description: async
+    source: hosted
+    version: "0.1.7+201307031742"
   barback:
     description: barback
     source: hosted
