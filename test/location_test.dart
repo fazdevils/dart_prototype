@@ -1,5 +1,5 @@
 import 'package:unittest/unittest.dart';
-import 'package:dart_prototype/src/location.dart';
+import 'package:dart_prototype/src/dart_prototype_libary.dart';
 
 void main() {
   
@@ -20,7 +20,7 @@ void main() {
   test('Parse XML List', (){
     String xml = 
         //"<?xml version=\"1.0\" encoding=\"UTF-8\"?>" +
-        "  <root" +
+        "  <root>" +
         "    <locations>" +
         "      <location id=\"1\" name=\"Century Grill\">" +
         "        <address>318 Pearl Street Buffalo, NY 14202</address>" +
@@ -37,7 +37,8 @@ void main() {
         "    </locations>" +
         "  </root>";
     
-    List<Location> locations = Location.readXmlLocationList(xml);
+    Factory factory = new LocationXmlFactory();
+    List<Location> locations = factory.create(xml);
     expect(locations.length, equals(3));
   });
 }

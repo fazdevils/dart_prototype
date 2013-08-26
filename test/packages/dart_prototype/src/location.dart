@@ -1,4 +1,4 @@
-import 'package:xml/xml.dart';
+part of prototype_library;
 
 class Location {
   final int locationId;
@@ -9,16 +9,7 @@ class Location {
   Location(this.locationId, this.name, this.address, this.zones);
   
   // XML
-  static List<Location> readXmlLocationList(String xmlString) {
-    
-    XmlElement xmlTree = XML.parse(xmlString);
-    List<Location> locationList = new List<Location>();
-    
-    for (XmlElement locationElement in xmlTree.queryAll("location")) {
-      locationList.add(new Location._xmlTree(locationElement));
-    }
-    return locationList;
-  }
+
 
   factory Location.xml(String xmlString) {
     XmlElement xmlTree = XML.parse(xmlString);

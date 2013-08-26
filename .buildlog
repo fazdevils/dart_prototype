@@ -2045,3 +2045,731 @@ Total time spent on example/click_counter/click_counter_prototype.html --  31 ms
 Total time                                                   -- 293 ms
 build.dart finished [507 ms]
 
+---
+build.dart --machine --changed=web\location_containter.html --removed=web\xclickcounter.html
+[{"method":"error","params":{"file":"web/dart_prototype.html","message":"unable to open file \"web\\xclickcounter.html\"","line":10,"charStart":191,"charEnd":236}}]
+[{"method":"warning","params":{"file":"web/dart_prototype.html","message":"custom element with tag name x-click-counter not found.","line":16,"charStart":330,"charEnd":401}}]
+Total time spent on web/dart_prototype.html                  -- 149 ms
+Total time spent on example/click_counter/click_counter_prototype.html --  95 ms
+[{"method":"generated","params":{"file":"example\\click_counter\\out\\click_counter_prototype.dart"}}]
+[{"method":"generated","params":{"file":"example\\click_counter\\out\\click_counter_prototype.css"}}]
+[{"method":"generated","params":{"file":"example\\click_counter\\out\\xclickcounter.dart"}}]
+[{"method":"generated","params":{"file":"example\\click_counter\\out\\xclickcounter.dart.map"}}]
+[{"method":"generated","params":{"file":"example\\click_counter\\out\\click_counter_prototype.dart.map"}}]
+[{"method":"mapping","params":{"from":"example/click_counter/click_counter_prototype.html","to":"example\\click_counter\\out\\click_counter_prototype.html"}}]
+[{"method":"generated","params":{"file":"example\\click_counter\\out\\click_counter_prototype.html"}}]
+[{"method":"generated","params":{"file":"example\\click_counter\\out\\click_counter_prototype.html_bootstrap.dart"}}]
+Total time                                                   -- 276 ms
+build.dart finished [471 ms]
+
+---
+build.dart --machine --changed=web\dart_prototype.html --changed=web\location_containter.html
+[{"method":"error","params":{"file":"web/dart_prototype.html","message":"unable to open file \"web\\xclickcounter.html\"","line":10,"charStart":195,"charEnd":240}}]
+[{"method":"warning","params":{"file":"web/dart_prototype.html","message":"custom element with tag name x-click-counter not found.","line":16,"charStart":344,"charEnd":415}}]
+Total time spent on web/dart_prototype.html                  -- 157 ms
+Total time spent on example/click_counter/click_counter_prototype.html -- 100 ms
+[{"method":"generated","params":{"file":"example\\click_counter\\out\\click_counter_prototype.dart"}}]
+[{"method":"generated","params":{"file":"example\\click_counter\\out\\click_counter_prototype.css"}}]
+[{"method":"generated","params":{"file":"example\\click_counter\\out\\xclickcounter.dart"}}]
+[{"method":"generated","params":{"file":"example\\click_counter\\out\\xclickcounter.dart.map"}}]
+[{"method":"generated","params":{"file":"example\\click_counter\\out\\click_counter_prototype.dart.map"}}]
+[{"method":"mapping","params":{"from":"example/click_counter/click_counter_prototype.html","to":"example\\click_counter\\out\\click_counter_prototype.html"}}]
+[{"method":"generated","params":{"file":"example\\click_counter\\out\\click_counter_prototype.html"}}]
+[{"method":"generated","params":{"file":"example\\click_counter\\out\\click_counter_prototype.html_bootstrap.dart"}}]
+Total time                                                   -- 293 ms
+build.dart finished [489 ms]
+
+---
+build.dart --machine --changed=web\location_counter.dart --removed=web\xclickcounter.dart
+[{"method":"error","params":{"file":"web/dart_prototype.html","message":"unable to open file \"web\\xclickcounter.html\"","line":10,"charStart":195,"charEnd":240}}]
+[{"method":"warning","params":{"file":"web/dart_prototype.html","message":"custom element with tag name x-click-counter not found.","line":16,"charStart":344,"charEnd":415}}]
+Total time spent on web/dart_prototype.html                  -- 154 ms
+Total time spent on example/click_counter/click_counter_prototype.html --  97 ms
+[{"method":"generated","params":{"file":"example\\click_counter\\out\\click_counter_prototype.dart"}}]
+[{"method":"generated","params":{"file":"example\\click_counter\\out\\click_counter_prototype.css"}}]
+[{"method":"generated","params":{"file":"example\\click_counter\\out\\xclickcounter.dart"}}]
+[{"method":"generated","params":{"file":"example\\click_counter\\out\\xclickcounter.dart.map"}}]
+[{"method":"generated","params":{"file":"example\\click_counter\\out\\click_counter_prototype.dart.map"}}]
+[{"method":"mapping","params":{"from":"example/click_counter/click_counter_prototype.html","to":"example\\click_counter\\out\\click_counter_prototype.html"}}]
+[{"method":"generated","params":{"file":"example\\click_counter\\out\\click_counter_prototype.html"}}]
+[{"method":"generated","params":{"file":"example\\click_counter\\out\\click_counter_prototype.html_bootstrap.dart"}}]
+Total time                                                   -- 285 ms
+build.dart finished [483 ms]
+
+---
+build.dart --machine --changed=lib\src\model.dart
+[{"method":"error","params":{"file":"web/dart_prototype.html","message":"unable to open file \"web\\xclickcounter.html\"","line":10,"charStart":195,"charEnd":240}}]
+[{"method":"warning","params":{"file":"web/dart_prototype.html","message":"custom element with tag name x-click-counter not found.","line":16,"charStart":344,"charEnd":415}}]
+Total time spent on web/dart_prototype.html                  -- 151 ms
+Total time spent on example/click_counter/click_counter_prototype.html --  94 ms
+[{"method":"generated","params":{"file":"example\\click_counter\\out\\click_counter_prototype.dart"}}]
+[{"method":"generated","params":{"file":"example\\click_counter\\out\\click_counter_prototype.css"}}]
+[{"method":"generated","params":{"file":"example\\click_counter\\out\\xclickcounter.dart"}}]
+[{"method":"generated","params":{"file":"example\\click_counter\\out\\xclickcounter.dart.map"}}]
+[{"method":"generated","params":{"file":"example\\click_counter\\out\\click_counter_prototype.dart.map"}}]
+[{"method":"mapping","params":{"from":"example/click_counter/click_counter_prototype.html","to":"example\\click_counter\\out\\click_counter_prototype.html"}}]
+[{"method":"generated","params":{"file":"example\\click_counter\\out\\click_counter_prototype.html"}}]
+[{"method":"generated","params":{"file":"example\\click_counter\\out\\click_counter_prototype.html_bootstrap.dart"}}]
+Total time                                                   -- 280 ms
+build.dart finished [475 ms]
+
+---
+build.dart --machine --changed=lib\src\app_config.dart --removed=lib\src\model.dart
+[{"method":"error","params":{"file":"web/dart_prototype.html","message":"unable to open file \"web\\xclickcounter.html\"","line":10,"charStart":195,"charEnd":240}}]
+[{"method":"warning","params":{"file":"web/dart_prototype.html","message":"custom element with tag name x-click-counter not found.","line":16,"charStart":344,"charEnd":415}}]
+Total time spent on web/dart_prototype.html                  -- 154 ms
+Total time spent on example/click_counter/click_counter_prototype.html --  94 ms
+[{"method":"generated","params":{"file":"example\\click_counter\\out\\click_counter_prototype.dart"}}]
+[{"method":"generated","params":{"file":"example\\click_counter\\out\\click_counter_prototype.css"}}]
+[{"method":"generated","params":{"file":"example\\click_counter\\out\\xclickcounter.dart"}}]
+[{"method":"generated","params":{"file":"example\\click_counter\\out\\xclickcounter.dart.map"}}]
+[{"method":"generated","params":{"file":"example\\click_counter\\out\\click_counter_prototype.dart.map"}}]
+[{"method":"mapping","params":{"from":"example/click_counter/click_counter_prototype.html","to":"example\\click_counter\\out\\click_counter_prototype.html"}}]
+[{"method":"generated","params":{"file":"example\\click_counter\\out\\click_counter_prototype.html"}}]
+[{"method":"generated","params":{"file":"example\\click_counter\\out\\click_counter_prototype.html_bootstrap.dart"}}]
+Total time                                                   -- 283 ms
+build.dart finished [479 ms]
+
+---
+build.dart --machine --changed=lib\src\app_context.dart --removed=lib\src\app_config.dart
+[{"method":"error","params":{"file":"web/dart_prototype.html","message":"unable to open file \"web\\xclickcounter.html\"","line":10,"charStart":195,"charEnd":240}}]
+[{"method":"warning","params":{"file":"web/dart_prototype.html","message":"custom element with tag name x-click-counter not found.","line":16,"charStart":344,"charEnd":415}}]
+Total time spent on web/dart_prototype.html                  -- 154 ms
+Total time spent on example/click_counter/click_counter_prototype.html --  95 ms
+[{"method":"generated","params":{"file":"example\\click_counter\\out\\click_counter_prototype.dart"}}]
+[{"method":"generated","params":{"file":"example\\click_counter\\out\\click_counter_prototype.css"}}]
+[{"method":"generated","params":{"file":"example\\click_counter\\out\\xclickcounter.dart"}}]
+[{"method":"generated","params":{"file":"example\\click_counter\\out\\xclickcounter.dart.map"}}]
+[{"method":"generated","params":{"file":"example\\click_counter\\out\\click_counter_prototype.dart.map"}}]
+[{"method":"mapping","params":{"from":"example/click_counter/click_counter_prototype.html","to":"example\\click_counter\\out\\click_counter_prototype.html"}}]
+[{"method":"generated","params":{"file":"example\\click_counter\\out\\click_counter_prototype.html"}}]
+[{"method":"generated","params":{"file":"example\\click_counter\\out\\click_counter_prototype.html_bootstrap.dart"}}]
+Total time                                                   -- 284 ms
+build.dart finished [479 ms]
+
+---
+build.dart --machine --changed=lib\src\application_context.dart --removed=lib\src\app_context.dart
+[{"method":"error","params":{"file":"web/dart_prototype.html","message":"unable to open file \"web\\xclickcounter.html\"","line":10,"charStart":195,"charEnd":240}}]
+[{"method":"warning","params":{"file":"web/dart_prototype.html","message":"custom element with tag name x-click-counter not found.","line":16,"charStart":344,"charEnd":415}}]
+Total time spent on web/dart_prototype.html                  -- 155 ms
+Total time spent on example/click_counter/click_counter_prototype.html --  95 ms
+[{"method":"generated","params":{"file":"example\\click_counter\\out\\click_counter_prototype.dart"}}]
+[{"method":"generated","params":{"file":"example\\click_counter\\out\\click_counter_prototype.css"}}]
+[{"method":"generated","params":{"file":"example\\click_counter\\out\\xclickcounter.dart"}}]
+[{"method":"generated","params":{"file":"example\\click_counter\\out\\xclickcounter.dart.map"}}]
+[{"method":"generated","params":{"file":"example\\click_counter\\out\\click_counter_prototype.dart.map"}}]
+[{"method":"mapping","params":{"from":"example/click_counter/click_counter_prototype.html","to":"example\\click_counter\\out\\click_counter_prototype.html"}}]
+[{"method":"generated","params":{"file":"example\\click_counter\\out\\click_counter_prototype.html"}}]
+[{"method":"generated","params":{"file":"example\\click_counter\\out\\click_counter_prototype.html_bootstrap.dart"}}]
+Total time                                                   -- 284 ms
+build.dart finished [480 ms]
+
+---
+build.dart --machine --changed=lib\src\location_factory.dart
+[{"method":"error","params":{"file":"web/dart_prototype.html","message":"unable to open file \"web\\xclickcounter.html\"","line":10,"charStart":195,"charEnd":240}}]
+[{"method":"warning","params":{"file":"web/dart_prototype.html","message":"custom element with tag name x-click-counter not found.","line":16,"charStart":344,"charEnd":415}}]
+Total time spent on web/dart_prototype.html                  -- 149 ms
+Total time spent on example/click_counter/click_counter_prototype.html --  94 ms
+[{"method":"generated","params":{"file":"example\\click_counter\\out\\click_counter_prototype.dart"}}]
+[{"method":"generated","params":{"file":"example\\click_counter\\out\\click_counter_prototype.css"}}]
+[{"method":"generated","params":{"file":"example\\click_counter\\out\\xclickcounter.dart"}}]
+[{"method":"generated","params":{"file":"example\\click_counter\\out\\xclickcounter.dart.map"}}]
+[{"method":"generated","params":{"file":"example\\click_counter\\out\\click_counter_prototype.dart.map"}}]
+[{"method":"mapping","params":{"from":"example/click_counter/click_counter_prototype.html","to":"example\\click_counter\\out\\click_counter_prototype.html"}}]
+[{"method":"generated","params":{"file":"example\\click_counter\\out\\click_counter_prototype.html"}}]
+[{"method":"generated","params":{"file":"example\\click_counter\\out\\click_counter_prototype.html_bootstrap.dart"}}]
+Total time                                                   -- 278 ms
+build.dart finished [475 ms]
+
+---
+build.dart --machine --changed=lib\src\mock\factory\location_factory.dart --removed=lib\src\location_factory.da...
+[{"method":"error","params":{"file":"web/dart_prototype.html","message":"unable to open file \"web\\xclickcounter.html\"","line":10,"charStart":195,"charEnd":240}}]
+[{"method":"warning","params":{"file":"web/dart_prototype.html","message":"custom element with tag name x-click-counter not found.","line":16,"charStart":344,"charEnd":415}}]
+Total time spent on web/dart_prototype.html                  -- 156 ms
+Total time spent on example/click_counter/click_counter_prototype.html --  97 ms
+[{"method":"generated","params":{"file":"example\\click_counter\\out\\click_counter_prototype.dart"}}]
+[{"method":"generated","params":{"file":"example\\click_counter\\out\\click_counter_prototype.css"}}]
+[{"method":"generated","params":{"file":"example\\click_counter\\out\\xclickcounter.dart"}}]
+[{"method":"generated","params":{"file":"example\\click_counter\\out\\xclickcounter.dart.map"}}]
+[{"method":"generated","params":{"file":"example\\click_counter\\out\\click_counter_prototype.dart.map"}}]
+[{"method":"mapping","params":{"from":"example/click_counter/click_counter_prototype.html","to":"example\\click_counter\\out\\click_counter_prototype.html"}}]
+[{"method":"generated","params":{"file":"example\\click_counter\\out\\click_counter_prototype.html"}}]
+[{"method":"generated","params":{"file":"example\\click_counter\\out\\click_counter_prototype.html_bootstrap.dart"}}]
+Total time                                                   -- 286 ms
+build.dart finished [480 ms]
+
+---
+build.dart --machine --changed=lib\src\mock\xml_factory\location_factory.dart --removed=lib\src\mock\factory\lo...
+[{"method":"error","params":{"file":"web/dart_prototype.html","message":"unable to open file \"web\\xclickcounter.html\"","line":10,"charStart":195,"charEnd":240}}]
+[{"method":"warning","params":{"file":"web/dart_prototype.html","message":"custom element with tag name x-click-counter not found.","line":16,"charStart":344,"charEnd":415}}]
+Total time spent on web/dart_prototype.html                  -- 156 ms
+Total time spent on example/click_counter/click_counter_prototype.html --  98 ms
+[{"method":"generated","params":{"file":"example\\click_counter\\out\\click_counter_prototype.dart"}}]
+[{"method":"generated","params":{"file":"example\\click_counter\\out\\click_counter_prototype.css"}}]
+[{"method":"generated","params":{"file":"example\\click_counter\\out\\xclickcounter.dart"}}]
+[{"method":"generated","params":{"file":"example\\click_counter\\out\\xclickcounter.dart.map"}}]
+[{"method":"generated","params":{"file":"example\\click_counter\\out\\click_counter_prototype.dart.map"}}]
+[{"method":"mapping","params":{"from":"example/click_counter/click_counter_prototype.html","to":"example\\click_counter\\out\\click_counter_prototype.html"}}]
+[{"method":"generated","params":{"file":"example\\click_counter\\out\\click_counter_prototype.html"}}]
+[{"method":"generated","params":{"file":"example\\click_counter\\out\\click_counter_prototype.html_bootstrap.dart"}}]
+Total time                                                   -- 288 ms
+build.dart finished [484 ms]
+
+---
+build.dart --machine --changed=lib\src\application_context.dart --changed=lib\src\location.dart --changed=lib\s...
+[{"method":"error","params":{"file":"web/dart_prototype.html","message":"unable to open file \"web\\xclickcounter.html\"","line":10,"charStart":195,"charEnd":240}}]
+[{"method":"warning","params":{"file":"web/dart_prototype.html","message":"custom element with tag name x-click-counter not found.","line":16,"charStart":344,"charEnd":415}}]
+Total time spent on web/dart_prototype.html                  -- 153 ms
+Total time spent on example/click_counter/click_counter_prototype.html --  94 ms
+[{"method":"generated","params":{"file":"example\\click_counter\\out\\click_counter_prototype.dart"}}]
+[{"method":"generated","params":{"file":"example\\click_counter\\out\\click_counter_prototype.css"}}]
+[{"method":"generated","params":{"file":"example\\click_counter\\out\\xclickcounter.dart"}}]
+[{"method":"generated","params":{"file":"example\\click_counter\\out\\xclickcounter.dart.map"}}]
+[{"method":"generated","params":{"file":"example\\click_counter\\out\\click_counter_prototype.dart.map"}}]
+[{"method":"mapping","params":{"from":"example/click_counter/click_counter_prototype.html","to":"example\\click_counter\\out\\click_counter_prototype.html"}}]
+[{"method":"generated","params":{"file":"example\\click_counter\\out\\click_counter_prototype.html"}}]
+[{"method":"generated","params":{"file":"example\\click_counter\\out\\click_counter_prototype.html_bootstrap.dart"}}]
+Total time                                                   -- 283 ms
+build.dart finished [481 ms]
+
+---
+build.dart --machine --changed=lib\src\location_factory.dart
+[{"method":"error","params":{"file":"web/dart_prototype.html","message":"unable to open file \"web\\xclickcounter.html\"","line":10,"charStart":195,"charEnd":240}}]
+[{"method":"warning","params":{"file":"web/dart_prototype.html","message":"custom element with tag name x-click-counter not found.","line":16,"charStart":344,"charEnd":415}}]
+Total time spent on web/dart_prototype.html                  -- 150 ms
+Total time spent on example/click_counter/click_counter_prototype.html --  95 ms
+[{"method":"generated","params":{"file":"example\\click_counter\\out\\click_counter_prototype.dart"}}]
+[{"method":"generated","params":{"file":"example\\click_counter\\out\\click_counter_prototype.css"}}]
+[{"method":"generated","params":{"file":"example\\click_counter\\out\\xclickcounter.dart"}}]
+[{"method":"generated","params":{"file":"example\\click_counter\\out\\xclickcounter.dart.map"}}]
+[{"method":"generated","params":{"file":"example\\click_counter\\out\\click_counter_prototype.dart.map"}}]
+[{"method":"mapping","params":{"from":"example/click_counter/click_counter_prototype.html","to":"example\\click_counter\\out\\click_counter_prototype.html"}}]
+[{"method":"generated","params":{"file":"example\\click_counter\\out\\click_counter_prototype.html"}}]
+[{"method":"generated","params":{"file":"example\\click_counter\\out\\click_counter_prototype.html_bootstrap.dart"}}]
+Total time                                                   -- 280 ms
+build.dart finished [479 ms]
+
+---
+build.dart --machine --changed=lib\src\abstract_factory.dart --removed=lib\src\location_factory.dart
+[{"method":"error","params":{"file":"web/dart_prototype.html","message":"unable to open file \"web\\xclickcounter.html\"","line":10,"charStart":195,"charEnd":240}}]
+[{"method":"warning","params":{"file":"web/dart_prototype.html","message":"custom element with tag name x-click-counter not found.","line":16,"charStart":344,"charEnd":415}}]
+Total time spent on web/dart_prototype.html                  -- 156 ms
+Total time spent on example/click_counter/click_counter_prototype.html --  98 ms
+[{"method":"generated","params":{"file":"example\\click_counter\\out\\click_counter_prototype.dart"}}]
+[{"method":"generated","params":{"file":"example\\click_counter\\out\\click_counter_prototype.css"}}]
+[{"method":"generated","params":{"file":"example\\click_counter\\out\\xclickcounter.dart"}}]
+[{"method":"generated","params":{"file":"example\\click_counter\\out\\xclickcounter.dart.map"}}]
+[{"method":"generated","params":{"file":"example\\click_counter\\out\\click_counter_prototype.dart.map"}}]
+[{"method":"mapping","params":{"from":"example/click_counter/click_counter_prototype.html","to":"example\\click_counter\\out\\click_counter_prototype.html"}}]
+[{"method":"generated","params":{"file":"example\\click_counter\\out\\click_counter_prototype.html"}}]
+[{"method":"generated","params":{"file":"example\\click_counter\\out\\click_counter_prototype.html_bootstrap.dart"}}]
+Total time                                                   -- 290 ms
+build.dart finished [486 ms]
+
+---
+build.dart --machine --changed=lib\src\abstract_factory.dart --changed=lib\src\mock\xml_factory\location_factor...
+[{"method":"error","params":{"file":"web/dart_prototype.html","message":"unable to open file \"web\\xclickcounter.html\"","line":10,"charStart":195,"charEnd":240}}]
+[{"method":"warning","params":{"file":"web/dart_prototype.html","message":"custom element with tag name x-click-counter not found.","line":16,"charStart":344,"charEnd":415}}]
+Total time spent on web/dart_prototype.html                  -- 152 ms
+Total time spent on example/click_counter/click_counter_prototype.html --  96 ms
+[{"method":"generated","params":{"file":"example\\click_counter\\out\\click_counter_prototype.dart"}}]
+[{"method":"generated","params":{"file":"example\\click_counter\\out\\click_counter_prototype.css"}}]
+[{"method":"generated","params":{"file":"example\\click_counter\\out\\xclickcounter.dart"}}]
+[{"method":"generated","params":{"file":"example\\click_counter\\out\\xclickcounter.dart.map"}}]
+[{"method":"generated","params":{"file":"example\\click_counter\\out\\click_counter_prototype.dart.map"}}]
+[{"method":"mapping","params":{"from":"example/click_counter/click_counter_prototype.html","to":"example\\click_counter\\out\\click_counter_prototype.html"}}]
+[{"method":"generated","params":{"file":"example\\click_counter\\out\\click_counter_prototype.html"}}]
+[{"method":"generated","params":{"file":"example\\click_counter\\out\\click_counter_prototype.html_bootstrap.dart"}}]
+Total time                                                   -- 281 ms
+build.dart finished [475 ms]
+
+---
+build.dart --machine --changed=lib\src\abstract_factory.dart
+[{"method":"error","params":{"file":"web/dart_prototype.html","message":"unable to open file \"web\\xclickcounter.html\"","line":10,"charStart":195,"charEnd":240}}]
+[{"method":"warning","params":{"file":"web/dart_prototype.html","message":"custom element with tag name x-click-counter not found.","line":16,"charStart":344,"charEnd":415}}]
+Total time spent on web/dart_prototype.html                  -- 153 ms
+Total time spent on example/click_counter/click_counter_prototype.html --  95 ms
+[{"method":"generated","params":{"file":"example\\click_counter\\out\\click_counter_prototype.dart"}}]
+[{"method":"generated","params":{"file":"example\\click_counter\\out\\click_counter_prototype.css"}}]
+[{"method":"generated","params":{"file":"example\\click_counter\\out\\xclickcounter.dart"}}]
+[{"method":"generated","params":{"file":"example\\click_counter\\out\\xclickcounter.dart.map"}}]
+[{"method":"generated","params":{"file":"example\\click_counter\\out\\click_counter_prototype.dart.map"}}]
+[{"method":"mapping","params":{"from":"example/click_counter/click_counter_prototype.html","to":"example\\click_counter\\out\\click_counter_prototype.html"}}]
+[{"method":"generated","params":{"file":"example\\click_counter\\out\\click_counter_prototype.html"}}]
+[{"method":"generated","params":{"file":"example\\click_counter\\out\\click_counter_prototype.html_bootstrap.dart"}}]
+Total time                                                   -- 283 ms
+build.dart finished [475 ms]
+
+---
+build.dart --machine --changed=lib\src\abstract_factory.dart
+[{"method":"error","params":{"file":"web/dart_prototype.html","message":"unable to open file \"web\\xclickcounter.html\"","line":10,"charStart":195,"charEnd":240}}]
+[{"method":"warning","params":{"file":"web/dart_prototype.html","message":"custom element with tag name x-click-counter not found.","line":16,"charStart":344,"charEnd":415}}]
+Total time spent on web/dart_prototype.html                  -- 155 ms
+Total time spent on example/click_counter/click_counter_prototype.html --  95 ms
+[{"method":"generated","params":{"file":"example\\click_counter\\out\\click_counter_prototype.dart"}}]
+[{"method":"generated","params":{"file":"example\\click_counter\\out\\click_counter_prototype.css"}}]
+[{"method":"generated","params":{"file":"example\\click_counter\\out\\xclickcounter.dart"}}]
+[{"method":"generated","params":{"file":"example\\click_counter\\out\\xclickcounter.dart.map"}}]
+[{"method":"generated","params":{"file":"example\\click_counter\\out\\click_counter_prototype.dart.map"}}]
+[{"method":"mapping","params":{"from":"example/click_counter/click_counter_prototype.html","to":"example\\click_counter\\out\\click_counter_prototype.html"}}]
+[{"method":"generated","params":{"file":"example\\click_counter\\out\\click_counter_prototype.html"}}]
+[{"method":"generated","params":{"file":"example\\click_counter\\out\\click_counter_prototype.html_bootstrap.dart"}}]
+Total time                                                   -- 286 ms
+build.dart finished [481 ms]
+
+---
+build.dart --machine --changed=lib\src\mock\xml_factory\location_factory.dart
+[{"method":"error","params":{"file":"web/dart_prototype.html","message":"unable to open file \"web\\xclickcounter.html\"","line":10,"charStart":195,"charEnd":240}}]
+[{"method":"warning","params":{"file":"web/dart_prototype.html","message":"custom element with tag name x-click-counter not found.","line":16,"charStart":344,"charEnd":415}}]
+Total time spent on web/dart_prototype.html                  -- 152 ms
+Total time spent on example/click_counter/click_counter_prototype.html --  94 ms
+[{"method":"generated","params":{"file":"example\\click_counter\\out\\click_counter_prototype.dart"}}]
+[{"method":"generated","params":{"file":"example\\click_counter\\out\\click_counter_prototype.css"}}]
+[{"method":"generated","params":{"file":"example\\click_counter\\out\\xclickcounter.dart"}}]
+[{"method":"generated","params":{"file":"example\\click_counter\\out\\xclickcounter.dart.map"}}]
+[{"method":"generated","params":{"file":"example\\click_counter\\out\\click_counter_prototype.dart.map"}}]
+[{"method":"mapping","params":{"from":"example/click_counter/click_counter_prototype.html","to":"example\\click_counter\\out\\click_counter_prototype.html"}}]
+[{"method":"generated","params":{"file":"example\\click_counter\\out\\click_counter_prototype.html"}}]
+[{"method":"generated","params":{"file":"example\\click_counter\\out\\click_counter_prototype.html_bootstrap.dart"}}]
+Total time                                                   -- 281 ms
+build.dart finished [475 ms]
+
+---
+build.dart --machine --changed=lib\src\dart_prototype_libary.dart
+[{"method":"error","params":{"file":"web/dart_prototype.html","message":"unable to open file \"web\\xclickcounter.html\"","line":10,"charStart":195,"charEnd":240}}]
+[{"method":"warning","params":{"file":"web/dart_prototype.html","message":"custom element with tag name x-click-counter not found.","line":16,"charStart":344,"charEnd":415}}]
+Total time spent on web/dart_prototype.html                  -- 152 ms
+Total time spent on example/click_counter/click_counter_prototype.html --  97 ms
+[{"method":"generated","params":{"file":"example\\click_counter\\out\\click_counter_prototype.dart"}}]
+[{"method":"generated","params":{"file":"example\\click_counter\\out\\click_counter_prototype.css"}}]
+[{"method":"generated","params":{"file":"example\\click_counter\\out\\xclickcounter.dart"}}]
+[{"method":"generated","params":{"file":"example\\click_counter\\out\\xclickcounter.dart.map"}}]
+[{"method":"generated","params":{"file":"example\\click_counter\\out\\click_counter_prototype.dart.map"}}]
+[{"method":"mapping","params":{"from":"example/click_counter/click_counter_prototype.html","to":"example\\click_counter\\out\\click_counter_prototype.html"}}]
+[{"method":"generated","params":{"file":"example\\click_counter\\out\\click_counter_prototype.html"}}]
+[{"method":"generated","params":{"file":"example\\click_counter\\out\\click_counter_prototype.html_bootstrap.dart"}}]
+Total time                                                   -- 283 ms
+build.dart finished [543 ms]
+
+---
+build.dart --machine --changed=lib\src\abstract_factory.dart --changed=lib\src\dart_prototype_libary.dart --cha...
+[{"method":"error","params":{"file":"web/dart_prototype.html","message":"unable to open file \"web\\xclickcounter.html\"","line":10,"charStart":195,"charEnd":240}}]
+[{"method":"warning","params":{"file":"web/dart_prototype.html","message":"custom element with tag name x-click-counter not found.","line":16,"charStart":344,"charEnd":415}}]
+Total time spent on web/dart_prototype.html                  -- 156 ms
+Total time spent on example/click_counter/click_counter_prototype.html --  97 ms
+[{"method":"generated","params":{"file":"example\\click_counter\\out\\click_counter_prototype.dart"}}]
+[{"method":"generated","params":{"file":"example\\click_counter\\out\\click_counter_prototype.css"}}]
+[{"method":"generated","params":{"file":"example\\click_counter\\out\\xclickcounter.dart"}}]
+[{"method":"generated","params":{"file":"example\\click_counter\\out\\xclickcounter.dart.map"}}]
+[{"method":"generated","params":{"file":"example\\click_counter\\out\\click_counter_prototype.dart.map"}}]
+[{"method":"mapping","params":{"from":"example/click_counter/click_counter_prototype.html","to":"example\\click_counter\\out\\click_counter_prototype.html"}}]
+[{"method":"generated","params":{"file":"example\\click_counter\\out\\click_counter_prototype.html"}}]
+[{"method":"generated","params":{"file":"example\\click_counter\\out\\click_counter_prototype.html_bootstrap.dart"}}]
+Total time                                                   -- 289 ms
+build.dart finished [485 ms]
+
+---
+build.dart --machine --changed=lib\src\dart_prototype_libary.dart --changed=lib\src\location.dart
+[{"method":"error","params":{"file":"web/dart_prototype.html","message":"unable to open file \"web\\xclickcounter.html\"","line":10,"charStart":195,"charEnd":240}}]
+[{"method":"warning","params":{"file":"web/dart_prototype.html","message":"custom element with tag name x-click-counter not found.","line":16,"charStart":344,"charEnd":415}}]
+Total time spent on web/dart_prototype.html                  -- 152 ms
+Total time spent on example/click_counter/click_counter_prototype.html --  94 ms
+[{"method":"generated","params":{"file":"example\\click_counter\\out\\click_counter_prototype.dart"}}]
+[{"method":"generated","params":{"file":"example\\click_counter\\out\\click_counter_prototype.css"}}]
+[{"method":"generated","params":{"file":"example\\click_counter\\out\\xclickcounter.dart"}}]
+[{"method":"generated","params":{"file":"example\\click_counter\\out\\xclickcounter.dart.map"}}]
+[{"method":"generated","params":{"file":"example\\click_counter\\out\\click_counter_prototype.dart.map"}}]
+[{"method":"mapping","params":{"from":"example/click_counter/click_counter_prototype.html","to":"example\\click_counter\\out\\click_counter_prototype.html"}}]
+[{"method":"generated","params":{"file":"example\\click_counter\\out\\click_counter_prototype.html"}}]
+[{"method":"generated","params":{"file":"example\\click_counter\\out\\click_counter_prototype.html_bootstrap.dart"}}]
+Total time                                                   -- 280 ms
+build.dart finished [470 ms]
+
+---
+build.dart --machine --changed=lib\src\location.dart
+[{"method":"error","params":{"file":"web/dart_prototype.html","message":"unable to open file \"web\\xclickcounter.html\"","line":10,"charStart":195,"charEnd":240}}]
+[{"method":"warning","params":{"file":"web/dart_prototype.html","message":"custom element with tag name x-click-counter not found.","line":16,"charStart":344,"charEnd":415}}]
+Total time spent on web/dart_prototype.html                  -- 151 ms
+Total time spent on example/click_counter/click_counter_prototype.html --  96 ms
+[{"method":"generated","params":{"file":"example\\click_counter\\out\\click_counter_prototype.dart"}}]
+[{"method":"generated","params":{"file":"example\\click_counter\\out\\click_counter_prototype.css"}}]
+[{"method":"generated","params":{"file":"example\\click_counter\\out\\xclickcounter.dart"}}]
+[{"method":"generated","params":{"file":"example\\click_counter\\out\\xclickcounter.dart.map"}}]
+[{"method":"generated","params":{"file":"example\\click_counter\\out\\click_counter_prototype.dart.map"}}]
+[{"method":"mapping","params":{"from":"example/click_counter/click_counter_prototype.html","to":"example\\click_counter\\out\\click_counter_prototype.html"}}]
+[{"method":"generated","params":{"file":"example\\click_counter\\out\\click_counter_prototype.html"}}]
+[{"method":"generated","params":{"file":"example\\click_counter\\out\\click_counter_prototype.html_bootstrap.dart"}}]
+Total time                                                   -- 280 ms
+build.dart finished [471 ms]
+
+---
+build.dart --machine --changed=lib\src\location.dart
+[{"method":"error","params":{"file":"web/dart_prototype.html","message":"unable to open file \"web\\xclickcounter.html\"","line":10,"charStart":195,"charEnd":240}}]
+[{"method":"warning","params":{"file":"web/dart_prototype.html","message":"custom element with tag name x-click-counter not found.","line":16,"charStart":344,"charEnd":415}}]
+Total time spent on web/dart_prototype.html                  -- 152 ms
+Total time spent on example/click_counter/click_counter_prototype.html --  95 ms
+[{"method":"generated","params":{"file":"example\\click_counter\\out\\click_counter_prototype.dart"}}]
+[{"method":"generated","params":{"file":"example\\click_counter\\out\\click_counter_prototype.css"}}]
+[{"method":"generated","params":{"file":"example\\click_counter\\out\\xclickcounter.dart"}}]
+[{"method":"generated","params":{"file":"example\\click_counter\\out\\xclickcounter.dart.map"}}]
+[{"method":"generated","params":{"file":"example\\click_counter\\out\\click_counter_prototype.dart.map"}}]
+[{"method":"mapping","params":{"from":"example/click_counter/click_counter_prototype.html","to":"example\\click_counter\\out\\click_counter_prototype.html"}}]
+[{"method":"generated","params":{"file":"example\\click_counter\\out\\click_counter_prototype.html"}}]
+[{"method":"generated","params":{"file":"example\\click_counter\\out\\click_counter_prototype.html_bootstrap.dart"}}]
+Total time                                                   -- 281 ms
+build.dart finished [473 ms]
+
+---
+build.dart --machine --changed=lib\src\location.dart
+[{"method":"error","params":{"file":"web/dart_prototype.html","message":"unable to open file \"web\\xclickcounter.html\"","line":10,"charStart":195,"charEnd":240}}]
+[{"method":"warning","params":{"file":"web/dart_prototype.html","message":"custom element with tag name x-click-counter not found.","line":16,"charStart":344,"charEnd":415}}]
+Total time spent on web/dart_prototype.html                  -- 152 ms
+Total time spent on example/click_counter/click_counter_prototype.html --  96 ms
+[{"method":"generated","params":{"file":"example\\click_counter\\out\\click_counter_prototype.dart"}}]
+[{"method":"generated","params":{"file":"example\\click_counter\\out\\click_counter_prototype.css"}}]
+[{"method":"generated","params":{"file":"example\\click_counter\\out\\xclickcounter.dart"}}]
+[{"method":"generated","params":{"file":"example\\click_counter\\out\\xclickcounter.dart.map"}}]
+[{"method":"generated","params":{"file":"example\\click_counter\\out\\click_counter_prototype.dart.map"}}]
+[{"method":"mapping","params":{"from":"example/click_counter/click_counter_prototype.html","to":"example\\click_counter\\out\\click_counter_prototype.html"}}]
+[{"method":"generated","params":{"file":"example\\click_counter\\out\\click_counter_prototype.html"}}]
+[{"method":"generated","params":{"file":"example\\click_counter\\out\\click_counter_prototype.html_bootstrap.dart"}}]
+Total time                                                   -- 281 ms
+build.dart finished [474 ms]
+
+---
+build.dart --machine --changed=lib\src\location.dart
+[{"method":"error","params":{"file":"web/dart_prototype.html","message":"unable to open file \"web\\xclickcounter.html\"","line":10,"charStart":195,"charEnd":240}}]
+[{"method":"warning","params":{"file":"web/dart_prototype.html","message":"custom element with tag name x-click-counter not found.","line":16,"charStart":344,"charEnd":415}}]
+Total time spent on web/dart_prototype.html                  -- 152 ms
+Total time spent on example/click_counter/click_counter_prototype.html --  94 ms
+[{"method":"generated","params":{"file":"example\\click_counter\\out\\click_counter_prototype.dart"}}]
+[{"method":"generated","params":{"file":"example\\click_counter\\out\\click_counter_prototype.css"}}]
+[{"method":"generated","params":{"file":"example\\click_counter\\out\\xclickcounter.dart"}}]
+[{"method":"generated","params":{"file":"example\\click_counter\\out\\xclickcounter.dart.map"}}]
+[{"method":"generated","params":{"file":"example\\click_counter\\out\\click_counter_prototype.dart.map"}}]
+[{"method":"mapping","params":{"from":"example/click_counter/click_counter_prototype.html","to":"example\\click_counter\\out\\click_counter_prototype.html"}}]
+[{"method":"generated","params":{"file":"example\\click_counter\\out\\click_counter_prototype.html"}}]
+[{"method":"generated","params":{"file":"example\\click_counter\\out\\click_counter_prototype.html_bootstrap.dart"}}]
+Total time                                                   -- 281 ms
+build.dart finished [475 ms]
+
+---
+build.dart --machine --changed=lib\src\dart_prototype_libary.dart --changed=lib\src\location.dart
+[{"method":"error","params":{"file":"web/dart_prototype.html","message":"unable to open file \"web\\xclickcounter.html\"","line":10,"charStart":195,"charEnd":240}}]
+[{"method":"warning","params":{"file":"web/dart_prototype.html","message":"custom element with tag name x-click-counter not found.","line":16,"charStart":344,"charEnd":415}}]
+Total time spent on web/dart_prototype.html                  -- 152 ms
+Total time spent on example/click_counter/click_counter_prototype.html --  97 ms
+[{"method":"generated","params":{"file":"example\\click_counter\\out\\click_counter_prototype.dart"}}]
+[{"method":"generated","params":{"file":"example\\click_counter\\out\\click_counter_prototype.css"}}]
+[{"method":"generated","params":{"file":"example\\click_counter\\out\\xclickcounter.dart"}}]
+[{"method":"generated","params":{"file":"example\\click_counter\\out\\xclickcounter.dart.map"}}]
+[{"method":"generated","params":{"file":"example\\click_counter\\out\\click_counter_prototype.dart.map"}}]
+[{"method":"mapping","params":{"from":"example/click_counter/click_counter_prototype.html","to":"example\\click_counter\\out\\click_counter_prototype.html"}}]
+[{"method":"generated","params":{"file":"example\\click_counter\\out\\click_counter_prototype.html"}}]
+[{"method":"generated","params":{"file":"example\\click_counter\\out\\click_counter_prototype.html_bootstrap.dart"}}]
+Total time                                                   -- 283 ms
+build.dart finished [475 ms]
+
+---
+build.dart --machine --changed=lib\src\dart_prototype_libary.dart
+[{"method":"error","params":{"file":"web/dart_prototype.html","message":"unable to open file \"web\\xclickcounter.html\"","line":10,"charStart":195,"charEnd":240}}]
+[{"method":"warning","params":{"file":"web/dart_prototype.html","message":"custom element with tag name x-click-counter not found.","line":16,"charStart":344,"charEnd":415}}]
+Total time spent on web/dart_prototype.html                  -- 150 ms
+Total time spent on example/click_counter/click_counter_prototype.html --  96 ms
+[{"method":"generated","params":{"file":"example\\click_counter\\out\\click_counter_prototype.dart"}}]
+[{"method":"generated","params":{"file":"example\\click_counter\\out\\click_counter_prototype.css"}}]
+[{"method":"generated","params":{"file":"example\\click_counter\\out\\xclickcounter.dart"}}]
+[{"method":"generated","params":{"file":"example\\click_counter\\out\\xclickcounter.dart.map"}}]
+[{"method":"generated","params":{"file":"example\\click_counter\\out\\click_counter_prototype.dart.map"}}]
+[{"method":"mapping","params":{"from":"example/click_counter/click_counter_prototype.html","to":"example\\click_counter\\out\\click_counter_prototype.html"}}]
+[{"method":"generated","params":{"file":"example\\click_counter\\out\\click_counter_prototype.html"}}]
+[{"method":"generated","params":{"file":"example\\click_counter\\out\\click_counter_prototype.html_bootstrap.dart"}}]
+Total time                                                   -- 281 ms
+build.dart finished [473 ms]
+
+---
+build.dart --machine --changed=lib\src\dart_prototype_libary.dart
+[{"method":"error","params":{"file":"web/dart_prototype.html","message":"unable to open file \"web\\xclickcounter.html\"","line":10,"charStart":195,"charEnd":240}}]
+[{"method":"warning","params":{"file":"web/dart_prototype.html","message":"custom element with tag name x-click-counter not found.","line":16,"charStart":344,"charEnd":415}}]
+Total time spent on web/dart_prototype.html                  -- 153 ms
+Total time spent on example/click_counter/click_counter_prototype.html --  95 ms
+[{"method":"generated","params":{"file":"example\\click_counter\\out\\click_counter_prototype.dart"}}]
+[{"method":"generated","params":{"file":"example\\click_counter\\out\\click_counter_prototype.css"}}]
+[{"method":"generated","params":{"file":"example\\click_counter\\out\\xclickcounter.dart"}}]
+[{"method":"generated","params":{"file":"example\\click_counter\\out\\xclickcounter.dart.map"}}]
+[{"method":"generated","params":{"file":"example\\click_counter\\out\\click_counter_prototype.dart.map"}}]
+[{"method":"mapping","params":{"from":"example/click_counter/click_counter_prototype.html","to":"example\\click_counter\\out\\click_counter_prototype.html"}}]
+[{"method":"generated","params":{"file":"example\\click_counter\\out\\click_counter_prototype.html"}}]
+[{"method":"generated","params":{"file":"example\\click_counter\\out\\click_counter_prototype.html_bootstrap.dart"}}]
+Total time                                                   -- 282 ms
+build.dart finished [472 ms]
+
+---
+build.dart --machine --changed=lib\src\application_context.dart
+[{"method":"error","params":{"file":"web/dart_prototype.html","message":"unable to open file \"web\\xclickcounter.html\"","line":10,"charStart":195,"charEnd":240}}]
+[{"method":"warning","params":{"file":"web/dart_prototype.html","message":"custom element with tag name x-click-counter not found.","line":16,"charStart":344,"charEnd":415}}]
+Total time spent on web/dart_prototype.html                  -- 160 ms
+Total time spent on example/click_counter/click_counter_prototype.html --  96 ms
+[{"method":"generated","params":{"file":"example\\click_counter\\out\\click_counter_prototype.dart"}}]
+[{"method":"generated","params":{"file":"example\\click_counter\\out\\click_counter_prototype.css"}}]
+[{"method":"generated","params":{"file":"example\\click_counter\\out\\xclickcounter.dart"}}]
+[{"method":"generated","params":{"file":"example\\click_counter\\out\\xclickcounter.dart.map"}}]
+[{"method":"generated","params":{"file":"example\\click_counter\\out\\click_counter_prototype.dart.map"}}]
+[{"method":"mapping","params":{"from":"example/click_counter/click_counter_prototype.html","to":"example\\click_counter\\out\\click_counter_prototype.html"}}]
+[{"method":"generated","params":{"file":"example\\click_counter\\out\\click_counter_prototype.html"}}]
+[{"method":"generated","params":{"file":"example\\click_counter\\out\\click_counter_prototype.html_bootstrap.dart"}}]
+Total time                                                   -- 292 ms
+build.dart finished [490 ms]
+
+---
+build.dart --machine --changed=lib\src\abstract_factory.dart
+[{"method":"error","params":{"file":"web/dart_prototype.html","message":"unable to open file \"web\\xclickcounter.html\"","line":10,"charStart":195,"charEnd":240}}]
+[{"method":"warning","params":{"file":"web/dart_prototype.html","message":"custom element with tag name x-click-counter not found.","line":16,"charStart":344,"charEnd":415}}]
+Total time spent on web/dart_prototype.html                  -- 152 ms
+Total time spent on example/click_counter/click_counter_prototype.html --  96 ms
+[{"method":"generated","params":{"file":"example\\click_counter\\out\\click_counter_prototype.dart"}}]
+[{"method":"generated","params":{"file":"example\\click_counter\\out\\click_counter_prototype.css"}}]
+[{"method":"generated","params":{"file":"example\\click_counter\\out\\xclickcounter.dart"}}]
+[{"method":"generated","params":{"file":"example\\click_counter\\out\\xclickcounter.dart.map"}}]
+[{"method":"generated","params":{"file":"example\\click_counter\\out\\click_counter_prototype.dart.map"}}]
+[{"method":"mapping","params":{"from":"example/click_counter/click_counter_prototype.html","to":"example\\click_counter\\out\\click_counter_prototype.html"}}]
+[{"method":"generated","params":{"file":"example\\click_counter\\out\\click_counter_prototype.html"}}]
+[{"method":"generated","params":{"file":"example\\click_counter\\out\\click_counter_prototype.html_bootstrap.dart"}}]
+Total time                                                   -- 283 ms
+build.dart finished [479 ms]
+
+---
+build.dart --machine --changed=lib\src\mock\xml_factory\location_factory.dart
+[{"method":"error","params":{"file":"web/dart_prototype.html","message":"unable to open file \"web\\xclickcounter.html\"","line":10,"charStart":195,"charEnd":240}}]
+[{"method":"warning","params":{"file":"web/dart_prototype.html","message":"custom element with tag name x-click-counter not found.","line":16,"charStart":344,"charEnd":415}}]
+Total time spent on web/dart_prototype.html                  -- 153 ms
+Total time spent on example/click_counter/click_counter_prototype.html --  95 ms
+[{"method":"generated","params":{"file":"example\\click_counter\\out\\click_counter_prototype.dart"}}]
+[{"method":"generated","params":{"file":"example\\click_counter\\out\\click_counter_prototype.css"}}]
+[{"method":"generated","params":{"file":"example\\click_counter\\out\\xclickcounter.dart"}}]
+[{"method":"generated","params":{"file":"example\\click_counter\\out\\xclickcounter.dart.map"}}]
+[{"method":"generated","params":{"file":"example\\click_counter\\out\\click_counter_prototype.dart.map"}}]
+[{"method":"mapping","params":{"from":"example/click_counter/click_counter_prototype.html","to":"example\\click_counter\\out\\click_counter_prototype.html"}}]
+[{"method":"generated","params":{"file":"example\\click_counter\\out\\click_counter_prototype.html"}}]
+[{"method":"generated","params":{"file":"example\\click_counter\\out\\click_counter_prototype.html_bootstrap.dart"}}]
+Total time                                                   -- 284 ms
+build.dart finished [479 ms]
+
+---
+build.dart --machine --changed=lib\src\xml_factory\location_factory.dart --removed=lib\src\mock\xml_factory\loc...
+[{"method":"error","params":{"file":"web/dart_prototype.html","message":"unable to open file \"web\\xclickcounter.html\"","line":10,"charStart":195,"charEnd":240}}]
+[{"method":"warning","params":{"file":"web/dart_prototype.html","message":"custom element with tag name x-click-counter not found.","line":16,"charStart":344,"charEnd":415}}]
+Total time spent on web/dart_prototype.html                  -- 156 ms
+Total time spent on example/click_counter/click_counter_prototype.html --  97 ms
+[{"method":"generated","params":{"file":"example\\click_counter\\out\\click_counter_prototype.dart"}}]
+[{"method":"generated","params":{"file":"example\\click_counter\\out\\click_counter_prototype.css"}}]
+[{"method":"generated","params":{"file":"example\\click_counter\\out\\xclickcounter.dart"}}]
+[{"method":"generated","params":{"file":"example\\click_counter\\out\\xclickcounter.dart.map"}}]
+[{"method":"generated","params":{"file":"example\\click_counter\\out\\click_counter_prototype.dart.map"}}]
+[{"method":"mapping","params":{"from":"example/click_counter/click_counter_prototype.html","to":"example\\click_counter\\out\\click_counter_prototype.html"}}]
+[{"method":"generated","params":{"file":"example\\click_counter\\out\\click_counter_prototype.html"}}]
+[{"method":"generated","params":{"file":"example\\click_counter\\out\\click_counter_prototype.html_bootstrap.dart"}}]
+Total time                                                   -- 287 ms
+build.dart finished [480 ms]
+
+---
+build.dart --machine --changed=lib\src\xml_factory\location_factory.dart
+[{"method":"error","params":{"file":"web/dart_prototype.html","message":"unable to open file \"web\\xclickcounter.html\"","line":10,"charStart":195,"charEnd":240}}]
+[{"method":"warning","params":{"file":"web/dart_prototype.html","message":"custom element with tag name x-click-counter not found.","line":16,"charStart":344,"charEnd":415}}]
+Total time spent on web/dart_prototype.html                  -- 153 ms
+Total time spent on example/click_counter/click_counter_prototype.html --  93 ms
+[{"method":"generated","params":{"file":"example\\click_counter\\out\\click_counter_prototype.dart"}}]
+[{"method":"generated","params":{"file":"example\\click_counter\\out\\click_counter_prototype.css"}}]
+[{"method":"generated","params":{"file":"example\\click_counter\\out\\xclickcounter.dart"}}]
+[{"method":"generated","params":{"file":"example\\click_counter\\out\\xclickcounter.dart.map"}}]
+[{"method":"generated","params":{"file":"example\\click_counter\\out\\click_counter_prototype.dart.map"}}]
+[{"method":"mapping","params":{"from":"example/click_counter/click_counter_prototype.html","to":"example\\click_counter\\out\\click_counter_prototype.html"}}]
+[{"method":"generated","params":{"file":"example\\click_counter\\out\\click_counter_prototype.html"}}]
+[{"method":"generated","params":{"file":"example\\click_counter\\out\\click_counter_prototype.html_bootstrap.dart"}}]
+Total time                                                   -- 280 ms
+build.dart finished [476 ms]
+
+---
+build.dart --machine --changed=lib\src\dart_prototype_libary.dart
+[{"method":"error","params":{"file":"web/dart_prototype.html","message":"unable to open file \"web\\xclickcounter.html\"","line":10,"charStart":195,"charEnd":240}}]
+[{"method":"warning","params":{"file":"web/dart_prototype.html","message":"custom element with tag name x-click-counter not found.","line":16,"charStart":344,"charEnd":415}}]
+Total time spent on web/dart_prototype.html                  -- 151 ms
+Total time spent on example/click_counter/click_counter_prototype.html --  95 ms
+[{"method":"generated","params":{"file":"example\\click_counter\\out\\click_counter_prototype.dart"}}]
+[{"method":"generated","params":{"file":"example\\click_counter\\out\\click_counter_prototype.css"}}]
+[{"method":"generated","params":{"file":"example\\click_counter\\out\\xclickcounter.dart"}}]
+[{"method":"generated","params":{"file":"example\\click_counter\\out\\xclickcounter.dart.map"}}]
+[{"method":"generated","params":{"file":"example\\click_counter\\out\\click_counter_prototype.dart.map"}}]
+[{"method":"mapping","params":{"from":"example/click_counter/click_counter_prototype.html","to":"example\\click_counter\\out\\click_counter_prototype.html"}}]
+[{"method":"generated","params":{"file":"example\\click_counter\\out\\click_counter_prototype.html"}}]
+[{"method":"generated","params":{"file":"example\\click_counter\\out\\click_counter_prototype.html_bootstrap.dart"}}]
+Total time                                                   -- 280 ms
+build.dart finished [473 ms]
+
+---
+build.dart --machine --changed=test\location_test.dart
+[{"method":"error","params":{"file":"web/dart_prototype.html","message":"unable to open file \"web\\xclickcounter.html\"","line":10,"charStart":195,"charEnd":240}}]
+[{"method":"warning","params":{"file":"web/dart_prototype.html","message":"custom element with tag name x-click-counter not found.","line":16,"charStart":344,"charEnd":415}}]
+Total time spent on web/dart_prototype.html                  -- 151 ms
+Total time spent on example/click_counter/click_counter_prototype.html --  94 ms
+[{"method":"generated","params":{"file":"example\\click_counter\\out\\click_counter_prototype.dart"}}]
+[{"method":"generated","params":{"file":"example\\click_counter\\out\\click_counter_prototype.css"}}]
+[{"method":"generated","params":{"file":"example\\click_counter\\out\\xclickcounter.dart"}}]
+[{"method":"generated","params":{"file":"example\\click_counter\\out\\xclickcounter.dart.map"}}]
+[{"method":"generated","params":{"file":"example\\click_counter\\out\\click_counter_prototype.dart.map"}}]
+[{"method":"mapping","params":{"from":"example/click_counter/click_counter_prototype.html","to":"example\\click_counter\\out\\click_counter_prototype.html"}}]
+[{"method":"generated","params":{"file":"example\\click_counter\\out\\click_counter_prototype.html"}}]
+[{"method":"generated","params":{"file":"example\\click_counter\\out\\click_counter_prototype.html_bootstrap.dart"}}]
+Total time                                                   -- 280 ms
+build.dart finished [470 ms]
+
+---
+build.dart --machine --changed=web\location_container.html --removed=web\location_containter.html
+[{"method":"error","params":{"file":"web/dart_prototype.html","message":"unable to open file \"web\\xclickcounter.html\"","line":10,"charStart":195,"charEnd":240}}]
+[{"method":"warning","params":{"file":"web/dart_prototype.html","message":"custom element with tag name x-click-counter not found.","line":16,"charStart":344,"charEnd":415}}]
+Total time spent on web/dart_prototype.html                  -- 152 ms
+Total time spent on example/click_counter/click_counter_prototype.html --  99 ms
+[{"method":"generated","params":{"file":"example\\click_counter\\out\\click_counter_prototype.dart"}}]
+[{"method":"generated","params":{"file":"example\\click_counter\\out\\click_counter_prototype.css"}}]
+[{"method":"generated","params":{"file":"example\\click_counter\\out\\xclickcounter.dart"}}]
+[{"method":"generated","params":{"file":"example\\click_counter\\out\\xclickcounter.dart.map"}}]
+[{"method":"generated","params":{"file":"example\\click_counter\\out\\click_counter_prototype.dart.map"}}]
+[{"method":"mapping","params":{"from":"example/click_counter/click_counter_prototype.html","to":"example\\click_counter\\out\\click_counter_prototype.html"}}]
+[{"method":"generated","params":{"file":"example\\click_counter\\out\\click_counter_prototype.html"}}]
+[{"method":"generated","params":{"file":"example\\click_counter\\out\\click_counter_prototype.html_bootstrap.dart"}}]
+Total time                                                   -- 285 ms
+build.dart finished [483 ms]
+
+---
+build.dart --machine --changed=web\location_container.html
+[{"method":"error","params":{"file":"web/dart_prototype.html","message":"unable to open file \"web\\xclickcounter.html\"","line":10,"charStart":195,"charEnd":240}}]
+[{"method":"warning","params":{"file":"web/dart_prototype.html","message":"custom element with tag name x-click-counter not found.","line":16,"charStart":344,"charEnd":415}}]
+Total time spent on web/dart_prototype.html                  -- 151 ms
+Total time spent on example/click_counter/click_counter_prototype.html --  97 ms
+[{"method":"generated","params":{"file":"example\\click_counter\\out\\click_counter_prototype.dart"}}]
+[{"method":"generated","params":{"file":"example\\click_counter\\out\\click_counter_prototype.css"}}]
+[{"method":"generated","params":{"file":"example\\click_counter\\out\\xclickcounter.dart"}}]
+[{"method":"generated","params":{"file":"example\\click_counter\\out\\xclickcounter.dart.map"}}]
+[{"method":"generated","params":{"file":"example\\click_counter\\out\\click_counter_prototype.dart.map"}}]
+[{"method":"mapping","params":{"from":"example/click_counter/click_counter_prototype.html","to":"example\\click_counter\\out\\click_counter_prototype.html"}}]
+[{"method":"generated","params":{"file":"example\\click_counter\\out\\click_counter_prototype.html"}}]
+[{"method":"generated","params":{"file":"example\\click_counter\\out\\click_counter_prototype.html_bootstrap.dart"}}]
+Total time                                                   -- 281 ms
+build.dart finished [473 ms]
+
+---
+build.dart --machine --changed=web\dart_prototype.html
+[{"method":"warning","params":{"file":"web/dart_prototype.html","message":"custom element with tag name x-click-counter not found.","line":16,"charStart":349,"charEnd":420}}]
+Total time spent on web/dart_prototype.html                  -- 228 ms
+[{"method":"generated","params":{"file":"web\\out\\location_counter.dart.map"}}]
+[{"method":"generated","params":{"file":"web\\out\\dart_prototype.css"}}]
+[{"method":"generated","params":{"file":"web\\out\\dart_prototype.dart.map"}}]
+[{"method":"generated","params":{"file":"web\\out\\location_counter.dart"}}]
+[{"method":"generated","params":{"file":"web\\out\\dart_prototype.dart"}}]
+[{"method":"mapping","params":{"from":"web/dart_prototype.html","to":"web\\out\\dart_prototype.html"}}]
+[{"method":"generated","params":{"file":"web\\out\\dart_prototype.html"}}]
+[{"method":"generated","params":{"file":"web\\out\\dart_prototype.html_bootstrap.dart"}}]
+Total time spent on example/click_counter/click_counter_prototype.html --  32 ms
+[{"method":"generated","params":{"file":"example\\click_counter\\out\\click_counter_prototype.dart"}}]
+[{"method":"generated","params":{"file":"example\\click_counter\\out\\click_counter_prototype.css"}}]
+[{"method":"generated","params":{"file":"example\\click_counter\\out\\xclickcounter.dart"}}]
+[{"method":"generated","params":{"file":"example\\click_counter\\out\\xclickcounter.dart.map"}}]
+[{"method":"generated","params":{"file":"example\\click_counter\\out\\click_counter_prototype.dart.map"}}]
+[{"method":"mapping","params":{"from":"example/click_counter/click_counter_prototype.html","to":"example\\click_counter\\out\\click_counter_prototype.html"}}]
+[{"method":"generated","params":{"file":"example\\click_counter\\out\\click_counter_prototype.html"}}]
+[{"method":"generated","params":{"file":"example\\click_counter\\out\\click_counter_prototype.html_bootstrap.dart"}}]
+Total time                                                   -- 295 ms
+build.dart finished [491 ms]
+
+---
+build.dart --machine --changed=web\dart_prototype.html
+Total time spent on web/dart_prototype.html                  -- 228 ms
+[{"method":"generated","params":{"file":"web\\out\\location_counter.dart.map"}}]
+[{"method":"generated","params":{"file":"web\\out\\dart_prototype.css"}}]
+[{"method":"generated","params":{"file":"web\\out\\dart_prototype.dart.map"}}]
+[{"method":"generated","params":{"file":"web\\out\\location_counter.dart"}}]
+[{"method":"generated","params":{"file":"web\\out\\dart_prototype.dart"}}]
+[{"method":"mapping","params":{"from":"web/dart_prototype.html","to":"web\\out\\dart_prototype.html"}}]
+[{"method":"generated","params":{"file":"web\\out\\dart_prototype.html"}}]
+[{"method":"generated","params":{"file":"web\\out\\dart_prototype.html_bootstrap.dart"}}]
+Total time spent on example/click_counter/click_counter_prototype.html --  33 ms
+[{"method":"generated","params":{"file":"example\\click_counter\\out\\click_counter_prototype.dart"}}]
+[{"method":"generated","params":{"file":"example\\click_counter\\out\\click_counter_prototype.css"}}]
+[{"method":"generated","params":{"file":"example\\click_counter\\out\\xclickcounter.dart"}}]
+[{"method":"generated","params":{"file":"example\\click_counter\\out\\xclickcounter.dart.map"}}]
+[{"method":"generated","params":{"file":"example\\click_counter\\out\\click_counter_prototype.dart.map"}}]
+[{"method":"mapping","params":{"from":"example/click_counter/click_counter_prototype.html","to":"example\\click_counter\\out\\click_counter_prototype.html"}}]
+[{"method":"generated","params":{"file":"example\\click_counter\\out\\click_counter_prototype.html"}}]
+[{"method":"generated","params":{"file":"example\\click_counter\\out\\click_counter_prototype.html_bootstrap.dart"}}]
+Total time                                                   -- 297 ms
+build.dart finished [491 ms]
+
+---
+build.dart --machine --changed=test\location_test.dart
+Total time spent on web/dart_prototype.html                  -- 226 ms
+[{"method":"generated","params":{"file":"web\\out\\location_counter.dart.map"}}]
+[{"method":"generated","params":{"file":"web\\out\\dart_prototype.css"}}]
+[{"method":"generated","params":{"file":"web\\out\\dart_prototype.dart.map"}}]
+[{"method":"generated","params":{"file":"web\\out\\location_counter.dart"}}]
+[{"method":"generated","params":{"file":"web\\out\\dart_prototype.dart"}}]
+[{"method":"mapping","params":{"from":"web/dart_prototype.html","to":"web\\out\\dart_prototype.html"}}]
+[{"method":"generated","params":{"file":"web\\out\\dart_prototype.html"}}]
+[{"method":"generated","params":{"file":"web\\out\\dart_prototype.html_bootstrap.dart"}}]
+Total time spent on example/click_counter/click_counter_prototype.html --  33 ms
+[{"method":"generated","params":{"file":"example\\click_counter\\out\\click_counter_prototype.dart"}}]
+[{"method":"generated","params":{"file":"example\\click_counter\\out\\click_counter_prototype.css"}}]
+[{"method":"generated","params":{"file":"example\\click_counter\\out\\xclickcounter.dart"}}]
+[{"method":"generated","params":{"file":"example\\click_counter\\out\\xclickcounter.dart.map"}}]
+[{"method":"generated","params":{"file":"example\\click_counter\\out\\click_counter_prototype.dart.map"}}]
+[{"method":"mapping","params":{"from":"example/click_counter/click_counter_prototype.html","to":"example\\click_counter\\out\\click_counter_prototype.html"}}]
+[{"method":"generated","params":{"file":"example\\click_counter\\out\\click_counter_prototype.html"}}]
+[{"method":"generated","params":{"file":"example\\click_counter\\out\\click_counter_prototype.html_bootstrap.dart"}}]
+Total time                                                   -- 295 ms
+build.dart finished [488 ms]
+
+---
+build.dart --machine --changed=test\location_test.dart
+Total time spent on web/dart_prototype.html                  -- 229 ms
+[{"method":"generated","params":{"file":"web\\out\\location_counter.dart.map"}}]
+[{"method":"generated","params":{"file":"web\\out\\dart_prototype.css"}}]
+[{"method":"generated","params":{"file":"web\\out\\dart_prototype.dart.map"}}]
+[{"method":"generated","params":{"file":"web\\out\\location_counter.dart"}}]
+[{"method":"generated","params":{"file":"web\\out\\dart_prototype.dart"}}]
+[{"method":"mapping","params":{"from":"web/dart_prototype.html","to":"web\\out\\dart_prototype.html"}}]
+[{"method":"generated","params":{"file":"web\\out\\dart_prototype.html"}}]
+[{"method":"generated","params":{"file":"web\\out\\dart_prototype.html_bootstrap.dart"}}]
+Total time spent on example/click_counter/click_counter_prototype.html --  35 ms
+[{"method":"generated","params":{"file":"example\\click_counter\\out\\click_counter_prototype.dart"}}]
+[{"method":"generated","params":{"file":"example\\click_counter\\out\\click_counter_prototype.css"}}]
+[{"method":"generated","params":{"file":"example\\click_counter\\out\\xclickcounter.dart"}}]
+[{"method":"generated","params":{"file":"example\\click_counter\\out\\xclickcounter.dart.map"}}]
+[{"method":"generated","params":{"file":"example\\click_counter\\out\\click_counter_prototype.dart.map"}}]
+[{"method":"mapping","params":{"from":"example/click_counter/click_counter_prototype.html","to":"example\\click_counter\\out\\click_counter_prototype.html"}}]
+[{"method":"generated","params":{"file":"example\\click_counter\\out\\click_counter_prototype.html"}}]
+[{"method":"generated","params":{"file":"example\\click_counter\\out\\click_counter_prototype.html_bootstrap.dart"}}]
+Total time                                                   -- 300 ms
+build.dart finished [513 ms]
+
+---
+build.dart --machine --changed=test\location_test.dart
+Total time spent on web/dart_prototype.html                  -- 238 ms
+[{"method":"generated","params":{"file":"web\\out\\location_counter.dart.map"}}]
+[{"method":"generated","params":{"file":"web\\out\\dart_prototype.css"}}]
+[{"method":"generated","params":{"file":"web\\out\\dart_prototype.dart.map"}}]
+[{"method":"generated","params":{"file":"web\\out\\location_counter.dart"}}]
+[{"method":"generated","params":{"file":"web\\out\\dart_prototype.dart"}}]
+[{"method":"mapping","params":{"from":"web/dart_prototype.html","to":"web\\out\\dart_prototype.html"}}]
+[{"method":"generated","params":{"file":"web\\out\\dart_prototype.html"}}]
+[{"method":"generated","params":{"file":"web\\out\\dart_prototype.html_bootstrap.dart"}}]
+Total time spent on example/click_counter/click_counter_prototype.html --  34 ms
+[{"method":"generated","params":{"file":"example\\click_counter\\out\\click_counter_prototype.dart"}}]
+[{"method":"generated","params":{"file":"example\\click_counter\\out\\click_counter_prototype.css"}}]
+[{"method":"generated","params":{"file":"example\\click_counter\\out\\xclickcounter.dart"}}]
+[{"method":"generated","params":{"file":"example\\click_counter\\out\\xclickcounter.dart.map"}}]
+[{"method":"generated","params":{"file":"example\\click_counter\\out\\click_counter_prototype.dart.map"}}]
+[{"method":"mapping","params":{"from":"example/click_counter/click_counter_prototype.html","to":"example\\click_counter\\out\\click_counter_prototype.html"}}]
+[{"method":"generated","params":{"file":"example\\click_counter\\out\\click_counter_prototype.html"}}]
+[{"method":"generated","params":{"file":"example\\click_counter\\out\\click_counter_prototype.html_bootstrap.dart"}}]
+Total time                                                   -- 310 ms
+build.dart finished [506 ms]
+
