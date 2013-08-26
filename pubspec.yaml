@@ -1,8 +1,10 @@
 name: dart_prototype
-description: A sample WebUI application
+description: A sample Dart application
 dependencies:
   browser: any
   js: any
-  xml: any
   web_ui: any
+  xml: any
+dev_dependencies:
+  unittest: any
   

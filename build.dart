@@ -5,6 +5,6 @@ import 'package:web_ui/component_build.dart';
 main() {
   //build(new Options().arguments, ['web/temp.html']);
   build(new Options().arguments, [
-    'web/temp.html',
+    'web/dart_prototype.html',
     'example/click_counter/click_counter_prototype.html']);
 }

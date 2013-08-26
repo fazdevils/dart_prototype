@@ -20,7 +20,7 @@ void main() {
   test('Parse XML List', (){
     String xml = 
         //"<?xml version=\"1.0\" encoding=\"UTF-8\"?>" +
-        "  <root>" +
+        "  <root" +
         "    <locations>" +
         "      <location id=\"1\" name=\"Century Grill\">" +
         "        <address>318 Pearl Street Buffalo, NY 14202</address>" +

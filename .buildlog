@@ -1725,3 +1725,323 @@ Total time spent on example/click_counter/click_counter_prototype.html --  31 ms
 Total time                                                   -- 293 ms
 build.dart finished [497 ms]
 
+---
+build.dart --machine --full
+Total time spent on web/temp.html                            -- 255 ms
+[{"method":"generated","params":{"file":"web\\out\\temp.html_bootstrap.dart"}}]
+[{"method":"generated","params":{"file":"web\\out\\xclickcounter.dart"}}]
+[{"method":"mapping","params":{"from":"web/temp.html","to":"web\\out\\temp.html"}}]
+[{"method":"generated","params":{"file":"web\\out\\temp.html"}}]
+[{"method":"generated","params":{"file":"web\\out\\temp.dart"}}]
+[{"method":"generated","params":{"file":"web\\out\\temp.dart.map"}}]
+[{"method":"generated","params":{"file":"web\\out\\temp.css"}}]
+[{"method":"generated","params":{"file":"web\\out\\xclickcounter.dart.map"}}]
+Total time spent on example/click_counter/click_counter_prototype.html --  30 ms
+[{"method":"generated","params":{"file":"example\\click_counter\\out\\click_counter_prototype.dart"}}]
+[{"method":"generated","params":{"file":"example\\click_counter\\out\\click_counter_prototype.css"}}]
+[{"method":"generated","params":{"file":"example\\click_counter\\out\\xclickcounter.dart"}}]
+[{"method":"generated","params":{"file":"example\\click_counter\\out\\xclickcounter.dart.map"}}]
+[{"method":"generated","params":{"file":"example\\click_counter\\out\\click_counter_prototype.dart.map"}}]
+[{"method":"mapping","params":{"from":"example/click_counter/click_counter_prototype.html","to":"example\\click_counter\\out\\click_counter_prototype.html"}}]
+[{"method":"generated","params":{"file":"example\\click_counter\\out\\click_counter_prototype.html"}}]
+[{"method":"generated","params":{"file":"example\\click_counter\\out\\click_counter_prototype.html_bootstrap.dart"}}]
+Total time                                                   -- 323 ms
+build.dart finished [557 ms]
+
+---
+build.dart --machine --changed=test\location_test.dart
+Total time spent on web/temp.html                            -- 222 ms
+[{"method":"generated","params":{"file":"web\\out\\temp.html_bootstrap.dart"}}]
+[{"method":"generated","params":{"file":"web\\out\\xclickcounter.dart"}}]
+[{"method":"mapping","params":{"from":"web/temp.html","to":"web\\out\\temp.html"}}]
+[{"method":"generated","params":{"file":"web\\out\\temp.html"}}]
+[{"method":"generated","params":{"file":"web\\out\\temp.dart"}}]
+[{"method":"generated","params":{"file":"web\\out\\temp.dart.map"}}]
+[{"method":"generated","params":{"file":"web\\out\\temp.css"}}]
+[{"method":"generated","params":{"file":"web\\out\\xclickcounter.dart.map"}}]
+Total time spent on example/click_counter/click_counter_prototype.html --  28 ms
+[{"method":"generated","params":{"file":"example\\click_counter\\out\\click_counter_prototype.dart"}}]
+[{"method":"generated","params":{"file":"example\\click_counter\\out\\click_counter_prototype.css"}}]
+[{"method":"generated","params":{"file":"example\\click_counter\\out\\xclickcounter.dart"}}]
+[{"method":"generated","params":{"file":"example\\click_counter\\out\\xclickcounter.dart.map"}}]
+[{"method":"generated","params":{"file":"example\\click_counter\\out\\click_counter_prototype.dart.map"}}]
+[{"method":"mapping","params":{"from":"example/click_counter/click_counter_prototype.html","to":"example\\click_counter\\out\\click_counter_prototype.html"}}]
+[{"method":"generated","params":{"file":"example\\click_counter\\out\\click_counter_prototype.html"}}]
+[{"method":"generated","params":{"file":"example\\click_counter\\out\\click_counter_prototype.html_bootstrap.dart"}}]
+Total time                                                   -- 287 ms
+build.dart finished [483 ms]
+
+---
+build.dart --machine --full
+Total time spent on web/temp.html                            -- 269 ms
+[{"method":"generated","params":{"file":"web\\out\\temp.html_bootstrap.dart"}}]
+[{"method":"generated","params":{"file":"web\\out\\xclickcounter.dart"}}]
+[{"method":"mapping","params":{"from":"web/temp.html","to":"web\\out\\temp.html"}}]
+[{"method":"generated","params":{"file":"web\\out\\temp.html"}}]
+[{"method":"generated","params":{"file":"web\\out\\temp.dart"}}]
+[{"method":"generated","params":{"file":"web\\out\\temp.dart.map"}}]
+[{"method":"generated","params":{"file":"web\\out\\temp.css"}}]
+[{"method":"generated","params":{"file":"web\\out\\xclickcounter.dart.map"}}]
+Total time spent on example/click_counter/click_counter_prototype.html --  35 ms
+[{"method":"generated","params":{"file":"example\\click_counter\\out\\click_counter_prototype.dart"}}]
+[{"method":"generated","params":{"file":"example\\click_counter\\out\\click_counter_prototype.css"}}]
+[{"method":"generated","params":{"file":"example\\click_counter\\out\\xclickcounter.dart"}}]
+[{"method":"generated","params":{"file":"example\\click_counter\\out\\xclickcounter.dart.map"}}]
+[{"method":"generated","params":{"file":"example\\click_counter\\out\\click_counter_prototype.dart.map"}}]
+[{"method":"mapping","params":{"from":"example/click_counter/click_counter_prototype.html","to":"example\\click_counter\\out\\click_counter_prototype.html"}}]
+[{"method":"generated","params":{"file":"example\\click_counter\\out\\click_counter_prototype.html"}}]
+[{"method":"generated","params":{"file":"example\\click_counter\\out\\click_counter_prototype.html_bootstrap.dart"}}]
+Total time                                                   -- 342 ms
+build.dart finished [566 ms]
+
+---
+build.dart --machine --changed=test\location_test.dart
+Total time spent on web/temp.html                            -- 226 ms
+[{"method":"generated","params":{"file":"web\\out\\temp.html_bootstrap.dart"}}]
+[{"method":"generated","params":{"file":"web\\out\\xclickcounter.dart"}}]
+[{"method":"mapping","params":{"from":"web/temp.html","to":"web\\out\\temp.html"}}]
+[{"method":"generated","params":{"file":"web\\out\\temp.html"}}]
+[{"method":"generated","params":{"file":"web\\out\\temp.dart"}}]
+[{"method":"generated","params":{"file":"web\\out\\temp.dart.map"}}]
+[{"method":"generated","params":{"file":"web\\out\\temp.css"}}]
+[{"method":"generated","params":{"file":"web\\out\\xclickcounter.dart.map"}}]
+Total time spent on example/click_counter/click_counter_prototype.html --  29 ms
+[{"method":"generated","params":{"file":"example\\click_counter\\out\\click_counter_prototype.dart"}}]
+[{"method":"generated","params":{"file":"example\\click_counter\\out\\click_counter_prototype.css"}}]
+[{"method":"generated","params":{"file":"example\\click_counter\\out\\xclickcounter.dart"}}]
+[{"method":"generated","params":{"file":"example\\click_counter\\out\\xclickcounter.dart.map"}}]
+[{"method":"generated","params":{"file":"example\\click_counter\\out\\click_counter_prototype.dart.map"}}]
+[{"method":"mapping","params":{"from":"example/click_counter/click_counter_prototype.html","to":"example\\click_counter\\out\\click_counter_prototype.html"}}]
+[{"method":"generated","params":{"file":"example\\click_counter\\out\\click_counter_prototype.html"}}]
+[{"method":"generated","params":{"file":"example\\click_counter\\out\\click_counter_prototype.html_bootstrap.dart"}}]
+Total time                                                   -- 292 ms
+build.dart finished [503 ms]
+
+---
+build.dart --machine --changed=pubspec.yaml
+Total time                                                   --  35 ms
+build.dart finished [236 ms]
+
+---
+build.dart --machine --changed=pubspec.yaml
+Total time                                                   --  31 ms
+build.dart finished [268 ms]
+
+---
+build.dart --machine --full
+Total time spent on web/temp.html                            -- 270 ms
+[{"method":"generated","params":{"file":"web\\out\\temp.html_bootstrap.dart"}}]
+[{"method":"generated","params":{"file":"web\\out\\xclickcounter.dart"}}]
+[{"method":"mapping","params":{"from":"web/temp.html","to":"web\\out\\temp.html"}}]
+[{"method":"generated","params":{"file":"web\\out\\temp.html"}}]
+[{"method":"generated","params":{"file":"web\\out\\temp.dart"}}]
+[{"method":"generated","params":{"file":"web\\out\\temp.dart.map"}}]
+[{"method":"generated","params":{"file":"web\\out\\temp.css"}}]
+[{"method":"generated","params":{"file":"web\\out\\xclickcounter.dart.map"}}]
+Total time spent on example/click_counter/click_counter_prototype.html --  41 ms
+[{"method":"generated","params":{"file":"example\\click_counter\\out\\click_counter_prototype.dart"}}]
+[{"method":"generated","params":{"file":"example\\click_counter\\out\\click_counter_prototype.css"}}]
+[{"method":"generated","params":{"file":"example\\click_counter\\out\\xclickcounter.dart"}}]
+[{"method":"generated","params":{"file":"example\\click_counter\\out\\xclickcounter.dart.map"}}]
+[{"method":"generated","params":{"file":"example\\click_counter\\out\\click_counter_prototype.dart.map"}}]
+[{"method":"mapping","params":{"from":"example/click_counter/click_counter_prototype.html","to":"example\\click_counter\\out\\click_counter_prototype.html"}}]
+[{"method":"generated","params":{"file":"example\\click_counter\\out\\click_counter_prototype.html"}}]
+[{"method":"generated","params":{"file":"example\\click_counter\\out\\click_counter_prototype.html_bootstrap.dart"}}]
+Total time                                                   -- 350 ms
+build.dart finished [572 ms]
+
+---
+build.dart --machine --full
+Total time spent on web/temp.html                            -- 287 ms
+[{"method":"generated","params":{"file":"web\\out\\temp.html_bootstrap.dart"}}]
+[{"method":"generated","params":{"file":"web\\out\\xclickcounter.dart"}}]
+[{"method":"mapping","params":{"from":"web/temp.html","to":"web\\out\\temp.html"}}]
+[{"method":"generated","params":{"file":"web\\out\\temp.html"}}]
+[{"method":"generated","params":{"file":"web\\out\\temp.dart"}}]
+[{"method":"generated","params":{"file":"web\\out\\temp.dart.map"}}]
+[{"method":"generated","params":{"file":"web\\out\\temp.css"}}]
+[{"method":"generated","params":{"file":"web\\out\\xclickcounter.dart.map"}}]
+Total time spent on example/click_counter/click_counter_prototype.html --  34 ms
+[{"method":"generated","params":{"file":"example\\click_counter\\out\\click_counter_prototype.dart"}}]
+[{"method":"generated","params":{"file":"example\\click_counter\\out\\click_counter_prototype.css"}}]
+[{"method":"generated","params":{"file":"example\\click_counter\\out\\xclickcounter.dart"}}]
+[{"method":"generated","params":{"file":"example\\click_counter\\out\\xclickcounter.dart.map"}}]
+[{"method":"generated","params":{"file":"example\\click_counter\\out\\click_counter_prototype.dart.map"}}]
+[{"method":"mapping","params":{"from":"example/click_counter/click_counter_prototype.html","to":"example\\click_counter\\out\\click_counter_prototype.html"}}]
+[{"method":"generated","params":{"file":"example\\click_counter\\out\\click_counter_prototype.html"}}]
+[{"method":"generated","params":{"file":"example\\click_counter\\out\\click_counter_prototype.html_bootstrap.dart"}}]
+Total time                                                   -- 361 ms
+build.dart finished [590 ms]
+
+---
+build.dart --machine --changed=test\location_test.dart
+Total time spent on web/temp.html                            -- 236 ms
+[{"method":"generated","params":{"file":"web\\out\\temp.html_bootstrap.dart"}}]
+[{"method":"generated","params":{"file":"web\\out\\xclickcounter.dart"}}]
+[{"method":"mapping","params":{"from":"web/temp.html","to":"web\\out\\temp.html"}}]
+[{"method":"generated","params":{"file":"web\\out\\temp.html"}}]
+[{"method":"generated","params":{"file":"web\\out\\temp.dart"}}]
+[{"method":"generated","params":{"file":"web\\out\\temp.dart.map"}}]
+[{"method":"generated","params":{"file":"web\\out\\temp.css"}}]
+[{"method":"generated","params":{"file":"web\\out\\xclickcounter.dart.map"}}]
+Total time spent on example/click_counter/click_counter_prototype.html --  31 ms
+[{"method":"generated","params":{"file":"example\\click_counter\\out\\click_counter_prototype.dart"}}]
+[{"method":"generated","params":{"file":"example\\click_counter\\out\\click_counter_prototype.css"}}]
+[{"method":"generated","params":{"file":"example\\click_counter\\out\\xclickcounter.dart"}}]
+[{"method":"generated","params":{"file":"example\\click_counter\\out\\xclickcounter.dart.map"}}]
+[{"method":"generated","params":{"file":"example\\click_counter\\out\\click_counter_prototype.dart.map"}}]
+[{"method":"mapping","params":{"from":"example/click_counter/click_counter_prototype.html","to":"example\\click_counter\\out\\click_counter_prototype.html"}}]
+[{"method":"generated","params":{"file":"example\\click_counter\\out\\click_counter_prototype.html"}}]
+[{"method":"generated","params":{"file":"example\\click_counter\\out\\click_counter_prototype.html_bootstrap.dart"}}]
+Total time                                                   -- 304 ms
+build.dart finished [500 ms]
+
+---
+build.dart --machine --full
+Total time spent on web/temp.html                            -- 277 ms
+[{"method":"generated","params":{"file":"web\\out\\temp.html_bootstrap.dart"}}]
+[{"method":"generated","params":{"file":"web\\out\\xclickcounter.dart"}}]
+[{"method":"mapping","params":{"from":"web/temp.html","to":"web\\out\\temp.html"}}]
+[{"method":"generated","params":{"file":"web\\out\\temp.html"}}]
+[{"method":"generated","params":{"file":"web\\out\\temp.dart"}}]
+[{"method":"generated","params":{"file":"web\\out\\temp.dart.map"}}]
+[{"method":"generated","params":{"file":"web\\out\\temp.css"}}]
+[{"method":"generated","params":{"file":"web\\out\\xclickcounter.dart.map"}}]
+Total time spent on example/click_counter/click_counter_prototype.html --  33 ms
+[{"method":"generated","params":{"file":"example\\click_counter\\out\\click_counter_prototype.dart"}}]
+[{"method":"generated","params":{"file":"example\\click_counter\\out\\click_counter_prototype.css"}}]
+[{"method":"generated","params":{"file":"example\\click_counter\\out\\xclickcounter.dart"}}]
+[{"method":"generated","params":{"file":"example\\click_counter\\out\\xclickcounter.dart.map"}}]
+[{"method":"generated","params":{"file":"example\\click_counter\\out\\click_counter_prototype.dart.map"}}]
+[{"method":"mapping","params":{"from":"example/click_counter/click_counter_prototype.html","to":"example\\click_counter\\out\\click_counter_prototype.html"}}]
+[{"method":"generated","params":{"file":"example\\click_counter\\out\\click_counter_prototype.html"}}]
+[{"method":"generated","params":{"file":"example\\click_counter\\out\\click_counter_prototype.html_bootstrap.dart"}}]
+Total time                                                   -- 350 ms
+build.dart finished [563 ms]
+
+---
+build.dart --machine --changed=pubspec.yaml
+Unable to open file: C:/Users/vfazio/dart/dart_prototype/packages/web_ui/component_build.dart'file:///C:/Users/vfazio/dart/dart_prototype/build.dart': Error: line 2 pos 1: library handler failed
+import 'package:web_ui/component_build.dart';
+^
+build.dart finished [41 ms]
+
+---
+build.dart --machine --changed=web\temp.html
+Unable to open file: C:/Users/vfazio/dart/dart_prototype/packages/web_ui/component_build.dart'file:///C:/Users/vfazio/dart/dart_prototype/build.dart': Error: line 2 pos 1: library handler failed
+import 'package:web_ui/component_build.dart';
+^
+build.dart finished [34 ms]
+
+---
+build.dart --machine --changed=web\dart_prototype.html --removed=web\temp.html
+Unable to open file: C:/Users/vfazio/dart/dart_prototype/packages/web_ui/component_build.dart'file:///C:/Users/vfazio/dart/dart_prototype/build.dart': Error: line 2 pos 1: library handler failed
+import 'package:web_ui/component_build.dart';
+^
+build.dart finished [33 ms]
+
+---
+build.dart --machine --changed=web\dart_prototype.css --removed=web\temp.css
+Unable to open file: C:/Users/vfazio/dart/dart_prototype/packages/web_ui/component_build.dart'file:///C:/Users/vfazio/dart/dart_prototype/build.dart': Error: line 2 pos 1: library handler failed
+import 'package:web_ui/component_build.dart';
+^
+build.dart finished [33 ms]
+
+---
+build.dart --machine --changed=web\dart_prototype.dart --removed=web\temp.dart
+Unable to open file: C:/Users/vfazio/dart/dart_prototype/packages/web_ui/component_build.dart'file:///C:/Users/vfazio/dart/dart_prototype/build.dart': Error: line 2 pos 1: library handler failed
+import 'package:web_ui/component_build.dart';
+^
+build.dart finished [35 ms]
+
+---
+build.dart --machine --changed=web\dart_prototype.html
+Unable to open file: C:/Users/vfazio/dart/dart_prototype/packages/web_ui/component_build.dart'file:///C:/Users/vfazio/dart/dart_prototype/build.dart': Error: line 2 pos 1: library handler failed
+import 'package:web_ui/component_build.dart';
+^
+build.dart finished [34 ms]
+
+---
+build.dart --machine --full
+Unable to open file: C:/Users/vfazio/dart/dart_prototype/packages/web_ui/component_build.dart'file:///C:/Users/vfazio/dart/dart_prototype/build.dart': Error: line 2 pos 1: library handler failed
+import 'package:web_ui/component_build.dart';
+^
+build.dart finished [52 ms]
+
+---
+build.dart --machine --changed=pubspec.lock
+Unable to open file: C:/Users/vfazio/dart/dart_prototype/packages/web_ui/component_build.dart'file:///C:/Users/vfazio/dart/dart_prototype/build.dart': Error: line 2 pos 1: library handler failed
+import 'package:web_ui/component_build.dart';
+^
+build.dart finished [38 ms]
+
+---
+build.dart --machine --full
+Unable to open file: C:/Users/vfazio/dart/dart_prototype/packages/web_ui/component_build.dart'file:///C:/Users/vfazio/dart/dart_prototype/build.dart': Error: line 2 pos 1: library handler failed
+import 'package:web_ui/component_build.dart';
+^
+build.dart finished [339 ms]
+
+---
+build.dart --machine --full
+Unable to open file: C:/Users/vfazio/dart/dart_prototype/packages/web_ui/component_build.dart'file:///C:/Users/vfazio/dart/dart_prototype/build.dart': Error: line 2 pos 1: library handler failed
+import 'package:web_ui/component_build.dart';
+^
+build.dart finished [128 ms]
+
+---
+build.dart --machine --changed=pubspec.yaml
+Total time                                                   --  40 ms
+build.dart finished [281 ms]
+
+---
+build.dart --machine --changed=pubspec.yaml
+Total time                                                   --  40 ms
+build.dart finished [297 ms]
+
+---
+build.dart --machine --changed=web\dart_prototype.html
+[{"method":"warning","params":{"file":"web/dart_prototype.html","message":"unable to open file \"web\\temp.css\"","line":7,"charStart":94,"charEnd":133}}]
+Total time spent on web/dart_prototype.html                  -- 226 ms
+[{"method":"generated","params":{"file":"web\\out\\xclickcounter.dart.map"}}]
+[{"method":"generated","params":{"file":"web\\out\\dart_prototype.dart"}}]
+[{"method":"generated","params":{"file":"web\\out\\dart_prototype.dart.map"}}]
+[{"method":"mapping","params":{"from":"web/dart_prototype.html","to":"web\\out\\dart_prototype.html"}}]
+[{"method":"generated","params":{"file":"web\\out\\dart_prototype.html"}}]
+[{"method":"generated","params":{"file":"web\\out\\dart_prototype.html_bootstrap.dart"}}]
+[{"method":"generated","params":{"file":"web\\out\\xclickcounter.dart"}}]
+Total time spent on example/click_counter/click_counter_prototype.html --  78 ms
+[{"method":"generated","params":{"file":"example\\click_counter\\out\\click_counter_prototype.dart"}}]
+[{"method":"generated","params":{"file":"example\\click_counter\\out\\click_counter_prototype.css"}}]
+[{"method":"generated","params":{"file":"example\\click_counter\\out\\xclickcounter.dart"}}]
+[{"method":"generated","params":{"file":"example\\click_counter\\out\\xclickcounter.dart.map"}}]
+[{"method":"generated","params":{"file":"example\\click_counter\\out\\click_counter_prototype.dart.map"}}]
+[{"method":"mapping","params":{"from":"example/click_counter/click_counter_prototype.html","to":"example\\click_counter\\out\\click_counter_prototype.html"}}]
+[{"method":"generated","params":{"file":"example\\click_counter\\out\\click_counter_prototype.html"}}]
+[{"method":"generated","params":{"file":"example\\click_counter\\out\\click_counter_prototype.html_bootstrap.dart"}}]
+Total time                                                   -- 337 ms
+build.dart finished [533 ms]
+
+---
+build.dart --machine --changed=web\dart_prototype.html
+Total time spent on web/dart_prototype.html                  -- 226 ms
+[{"method":"generated","params":{"file":"web\\out\\xclickcounter.dart"}}]
+[{"method":"generated","params":{"file":"web\\out\\dart_prototype.css"}}]
+[{"method":"generated","params":{"file":"web\\out\\dart_prototype.dart.map"}}]
+[{"method":"generated","params":{"file":"web\\out\\dart_prototype.dart"}}]
+[{"method":"mapping","params":{"from":"web/dart_prototype.html","to":"web\\out\\dart_prototype.html"}}]
+[{"method":"generated","params":{"file":"web\\out\\dart_prototype.html"}}]
+[{"method":"generated","params":{"file":"web\\out\\dart_prototype.html_bootstrap.dart"}}]
+[{"method":"generated","params":{"file":"web\\out\\xclickcounter.dart.map"}}]
+Total time spent on example/click_counter/click_counter_prototype.html --  31 ms
+[{"method":"generated","params":{"file":"example\\click_counter\\out\\click_counter_prototype.dart"}}]
+[{"method":"generated","params":{"file":"example\\click_counter\\out\\click_counter_prototype.css"}}]
+[{"method":"generated","params":{"file":"example\\click_counter\\out\\xclickcounter.dart"}}]
+[{"method":"generated","params":{"file":"example\\click_counter\\out\\xclickcounter.dart.map"}}]
+[{"method":"generated","params":{"file":"example\\click_counter\\out\\click_counter_prototype.dart.map"}}]
+[{"method":"mapping","params":{"from":"example/click_counter/click_counter_prototype.html","to":"example\\click_counter\\out\\click_counter_prototype.html"}}]
+[{"method":"generated","params":{"file":"example\\click_counter\\out\\click_counter_prototype.html"}}]
+[{"method":"generated","params":{"file":"example\\click_counter\\out\\click_counter_prototype.html_bootstrap.dart"}}]
+Total time                                                   -- 293 ms
+build.dart finished [507 ms]
+
