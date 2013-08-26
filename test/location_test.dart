@@ -10,7 +10,7 @@ void main() {
           "  <zones>10</zones>" +   
           "</location>";
       
-      Location location = new Location.xml(xml);
+      Location location = new LocationXmlFactory().create(xml);
       expect(location.locationId, equals(1));
       expect(location.name, equals("Century Grill"));
       expect(location.address, equals("318 Pearl Street Buffalo, NY 14202"));
@@ -38,7 +38,7 @@ void main() {
         "  </root>";
     
     Factory factory = new LocationXmlFactory();
-    List<Location> locations = factory.create(xml);
+    List<Location> locations = factory.createList(xml);
     expect(locations.length, equals(3));
   });
 }

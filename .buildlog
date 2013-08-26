@@ -2773,3 +2773,187 @@ Total time spent on example/click_counter/click_counter_prototype.html --  34 ms
 Total time                                                   -- 310 ms
 build.dart finished [506 ms]
 
+---
+build.dart --machine --changed=lib\src\location.dart
+Total time spent on web/dart_prototype.html                  -- 229 ms
+[{"method":"generated","params":{"file":"web\\out\\location_counter.dart.map"}}]
+[{"method":"generated","params":{"file":"web\\out\\dart_prototype.css"}}]
+[{"method":"generated","params":{"file":"web\\out\\dart_prototype.dart.map"}}]
+[{"method":"generated","params":{"file":"web\\out\\location_counter.dart"}}]
+[{"method":"generated","params":{"file":"web\\out\\dart_prototype.dart"}}]
+[{"method":"mapping","params":{"from":"web/dart_prototype.html","to":"web\\out\\dart_prototype.html"}}]
+[{"method":"generated","params":{"file":"web\\out\\dart_prototype.html"}}]
+[{"method":"generated","params":{"file":"web\\out\\dart_prototype.html_bootstrap.dart"}}]
+Total time spent on example/click_counter/click_counter_prototype.html --  33 ms
+[{"method":"generated","params":{"file":"example\\click_counter\\out\\click_counter_prototype.dart"}}]
+[{"method":"generated","params":{"file":"example\\click_counter\\out\\click_counter_prototype.css"}}]
+[{"method":"generated","params":{"file":"example\\click_counter\\out\\xclickcounter.dart"}}]
+[{"method":"generated","params":{"file":"example\\click_counter\\out\\xclickcounter.dart.map"}}]
+[{"method":"generated","params":{"file":"example\\click_counter\\out\\click_counter_prototype.dart.map"}}]
+[{"method":"mapping","params":{"from":"example/click_counter/click_counter_prototype.html","to":"example\\click_counter\\out\\click_counter_prototype.html"}}]
+[{"method":"generated","params":{"file":"example\\click_counter\\out\\click_counter_prototype.html"}}]
+[{"method":"generated","params":{"file":"example\\click_counter\\out\\click_counter_prototype.html_bootstrap.dart"}}]
+Total time                                                   -- 301 ms
+build.dart finished [499 ms]
+
+---
+build.dart --machine --changed=lib\src\location.dart
+Total time spent on web/dart_prototype.html                  -- 234 ms
+[{"method":"generated","params":{"file":"web\\out\\location_counter.dart.map"}}]
+[{"method":"generated","params":{"file":"web\\out\\dart_prototype.css"}}]
+[{"method":"generated","params":{"file":"web\\out\\dart_prototype.dart.map"}}]
+[{"method":"generated","params":{"file":"web\\out\\location_counter.dart"}}]
+[{"method":"generated","params":{"file":"web\\out\\dart_prototype.dart"}}]
+[{"method":"mapping","params":{"from":"web/dart_prototype.html","to":"web\\out\\dart_prototype.html"}}]
+[{"method":"generated","params":{"file":"web\\out\\dart_prototype.html"}}]
+[{"method":"generated","params":{"file":"web\\out\\dart_prototype.html_bootstrap.dart"}}]
+Total time spent on example/click_counter/click_counter_prototype.html --  33 ms
+[{"method":"generated","params":{"file":"example\\click_counter\\out\\click_counter_prototype.dart"}}]
+[{"method":"generated","params":{"file":"example\\click_counter\\out\\click_counter_prototype.css"}}]
+[{"method":"generated","params":{"file":"example\\click_counter\\out\\xclickcounter.dart"}}]
+[{"method":"generated","params":{"file":"example\\click_counter\\out\\xclickcounter.dart.map"}}]
+[{"method":"generated","params":{"file":"example\\click_counter\\out\\click_counter_prototype.dart.map"}}]
+[{"method":"mapping","params":{"from":"example/click_counter/click_counter_prototype.html","to":"example\\click_counter\\out\\click_counter_prototype.html"}}]
+[{"method":"generated","params":{"file":"example\\click_counter\\out\\click_counter_prototype.html"}}]
+[{"method":"generated","params":{"file":"example\\click_counter\\out\\click_counter_prototype.html_bootstrap.dart"}}]
+Total time                                                   -- 305 ms
+build.dart finished [506 ms]
+
+---
+build.dart --machine --changed=lib\src\abstract_factory.dart --changed=lib\src\xml_factory\location_factory.dar...
+Total time spent on web/dart_prototype.html                  -- 234 ms
+[{"method":"generated","params":{"file":"web\\out\\location_counter.dart.map"}}]
+[{"method":"generated","params":{"file":"web\\out\\dart_prototype.css"}}]
+[{"method":"generated","params":{"file":"web\\out\\dart_prototype.dart.map"}}]
+[{"method":"generated","params":{"file":"web\\out\\location_counter.dart"}}]
+[{"method":"generated","params":{"file":"web\\out\\dart_prototype.dart"}}]
+[{"method":"mapping","params":{"from":"web/dart_prototype.html","to":"web\\out\\dart_prototype.html"}}]
+[{"method":"generated","params":{"file":"web\\out\\dart_prototype.html"}}]
+[{"method":"generated","params":{"file":"web\\out\\dart_prototype.html_bootstrap.dart"}}]
+Total time spent on example/click_counter/click_counter_prototype.html --  32 ms
+[{"method":"generated","params":{"file":"example\\click_counter\\out\\click_counter_prototype.dart"}}]
+[{"method":"generated","params":{"file":"example\\click_counter\\out\\click_counter_prototype.css"}}]
+[{"method":"generated","params":{"file":"example\\click_counter\\out\\xclickcounter.dart"}}]
+[{"method":"generated","params":{"file":"example\\click_counter\\out\\xclickcounter.dart.map"}}]
+[{"method":"generated","params":{"file":"example\\click_counter\\out\\click_counter_prototype.dart.map"}}]
+[{"method":"mapping","params":{"from":"example/click_counter/click_counter_prototype.html","to":"example\\click_counter\\out\\click_counter_prototype.html"}}]
+[{"method":"generated","params":{"file":"example\\click_counter\\out\\click_counter_prototype.html"}}]
+[{"method":"generated","params":{"file":"example\\click_counter\\out\\click_counter_prototype.html_bootstrap.dart"}}]
+Total time                                                   -- 307 ms
+build.dart finished [505 ms]
+
+---
+build.dart --machine --changed=lib\src\abstract_factory.dart
+Total time spent on web/dart_prototype.html                  -- 223 ms
+[{"method":"generated","params":{"file":"web\\out\\location_counter.dart.map"}}]
+[{"method":"generated","params":{"file":"web\\out\\dart_prototype.css"}}]
+[{"method":"generated","params":{"file":"web\\out\\dart_prototype.dart.map"}}]
+[{"method":"generated","params":{"file":"web\\out\\location_counter.dart"}}]
+[{"method":"generated","params":{"file":"web\\out\\dart_prototype.dart"}}]
+[{"method":"mapping","params":{"from":"web/dart_prototype.html","to":"web\\out\\dart_prototype.html"}}]
+[{"method":"generated","params":{"file":"web\\out\\dart_prototype.html"}}]
+[{"method":"generated","params":{"file":"web\\out\\dart_prototype.html_bootstrap.dart"}}]
+Total time spent on example/click_counter/click_counter_prototype.html --  32 ms
+[{"method":"generated","params":{"file":"example\\click_counter\\out\\click_counter_prototype.dart"}}]
+[{"method":"generated","params":{"file":"example\\click_counter\\out\\click_counter_prototype.css"}}]
+[{"method":"generated","params":{"file":"example\\click_counter\\out\\xclickcounter.dart"}}]
+[{"method":"generated","params":{"file":"example\\click_counter\\out\\xclickcounter.dart.map"}}]
+[{"method":"generated","params":{"file":"example\\click_counter\\out\\click_counter_prototype.dart.map"}}]
+[{"method":"mapping","params":{"from":"example/click_counter/click_counter_prototype.html","to":"example\\click_counter\\out\\click_counter_prototype.html"}}]
+[{"method":"generated","params":{"file":"example\\click_counter\\out\\click_counter_prototype.html"}}]
+[{"method":"generated","params":{"file":"example\\click_counter\\out\\click_counter_prototype.html_bootstrap.dart"}}]
+Total time                                                   -- 292 ms
+build.dart finished [483 ms]
+
+---
+build.dart --machine --changed=lib\src\location.dart
+Total time spent on web/dart_prototype.html                  -- 228 ms
+[{"method":"generated","params":{"file":"web\\out\\location_counter.dart.map"}}]
+[{"method":"generated","params":{"file":"web\\out\\dart_prototype.css"}}]
+[{"method":"generated","params":{"file":"web\\out\\dart_prototype.dart.map"}}]
+[{"method":"generated","params":{"file":"web\\out\\location_counter.dart"}}]
+[{"method":"generated","params":{"file":"web\\out\\dart_prototype.dart"}}]
+[{"method":"mapping","params":{"from":"web/dart_prototype.html","to":"web\\out\\dart_prototype.html"}}]
+[{"method":"generated","params":{"file":"web\\out\\dart_prototype.html"}}]
+[{"method":"generated","params":{"file":"web\\out\\dart_prototype.html_bootstrap.dart"}}]
+Total time spent on example/click_counter/click_counter_prototype.html --  32 ms
+[{"method":"generated","params":{"file":"example\\click_counter\\out\\click_counter_prototype.dart"}}]
+[{"method":"generated","params":{"file":"example\\click_counter\\out\\click_counter_prototype.css"}}]
+[{"method":"generated","params":{"file":"example\\click_counter\\out\\xclickcounter.dart"}}]
+[{"method":"generated","params":{"file":"example\\click_counter\\out\\xclickcounter.dart.map"}}]
+[{"method":"generated","params":{"file":"example\\click_counter\\out\\click_counter_prototype.dart.map"}}]
+[{"method":"mapping","params":{"from":"example/click_counter/click_counter_prototype.html","to":"example\\click_counter\\out\\click_counter_prototype.html"}}]
+[{"method":"generated","params":{"file":"example\\click_counter\\out\\click_counter_prototype.html"}}]
+[{"method":"generated","params":{"file":"example\\click_counter\\out\\click_counter_prototype.html_bootstrap.dart"}}]
+Total time                                                   -- 296 ms
+build.dart finished [494 ms]
+
+---
+build.dart --machine --changed=lib\src\xml_factory\location_factory.dart
+Total time spent on web/dart_prototype.html                  -- 224 ms
+[{"method":"generated","params":{"file":"web\\out\\location_counter.dart.map"}}]
+[{"method":"generated","params":{"file":"web\\out\\dart_prototype.css"}}]
+[{"method":"generated","params":{"file":"web\\out\\dart_prototype.dart.map"}}]
+[{"method":"generated","params":{"file":"web\\out\\location_counter.dart"}}]
+[{"method":"generated","params":{"file":"web\\out\\dart_prototype.dart"}}]
+[{"method":"mapping","params":{"from":"web/dart_prototype.html","to":"web\\out\\dart_prototype.html"}}]
+[{"method":"generated","params":{"file":"web\\out\\dart_prototype.html"}}]
+[{"method":"generated","params":{"file":"web\\out\\dart_prototype.html_bootstrap.dart"}}]
+Total time spent on example/click_counter/click_counter_prototype.html --  32 ms
+[{"method":"generated","params":{"file":"example\\click_counter\\out\\click_counter_prototype.dart"}}]
+[{"method":"generated","params":{"file":"example\\click_counter\\out\\click_counter_prototype.css"}}]
+[{"method":"generated","params":{"file":"example\\click_counter\\out\\xclickcounter.dart"}}]
+[{"method":"generated","params":{"file":"example\\click_counter\\out\\xclickcounter.dart.map"}}]
+[{"method":"generated","params":{"file":"example\\click_counter\\out\\click_counter_prototype.dart.map"}}]
+[{"method":"mapping","params":{"from":"example/click_counter/click_counter_prototype.html","to":"example\\click_counter\\out\\click_counter_prototype.html"}}]
+[{"method":"generated","params":{"file":"example\\click_counter\\out\\click_counter_prototype.html"}}]
+[{"method":"generated","params":{"file":"example\\click_counter\\out\\click_counter_prototype.html_bootstrap.dart"}}]
+Total time                                                   -- 293 ms
+build.dart finished [485 ms]
+
+---
+build.dart --machine --changed=test\location_test.dart
+Total time spent on web/dart_prototype.html                  -- 234 ms
+[{"method":"generated","params":{"file":"web\\out\\location_counter.dart.map"}}]
+[{"method":"generated","params":{"file":"web\\out\\dart_prototype.css"}}]
+[{"method":"generated","params":{"file":"web\\out\\dart_prototype.dart.map"}}]
+[{"method":"generated","params":{"file":"web\\out\\location_counter.dart"}}]
+[{"method":"generated","params":{"file":"web\\out\\dart_prototype.dart"}}]
+[{"method":"mapping","params":{"from":"web/dart_prototype.html","to":"web\\out\\dart_prototype.html"}}]
+[{"method":"generated","params":{"file":"web\\out\\dart_prototype.html"}}]
+[{"method":"generated","params":{"file":"web\\out\\dart_prototype.html_bootstrap.dart"}}]
+Total time spent on example/click_counter/click_counter_prototype.html --  33 ms
+[{"method":"generated","params":{"file":"example\\click_counter\\out\\click_counter_prototype.dart"}}]
+[{"method":"generated","params":{"file":"example\\click_counter\\out\\click_counter_prototype.css"}}]
+[{"method":"generated","params":{"file":"example\\click_counter\\out\\xclickcounter.dart"}}]
+[{"method":"generated","params":{"file":"example\\click_counter\\out\\xclickcounter.dart.map"}}]
+[{"method":"generated","params":{"file":"example\\click_counter\\out\\click_counter_prototype.dart.map"}}]
+[{"method":"mapping","params":{"from":"example/click_counter/click_counter_prototype.html","to":"example\\click_counter\\out\\click_counter_prototype.html"}}]
+[{"method":"generated","params":{"file":"example\\click_counter\\out\\click_counter_prototype.html"}}]
+[{"method":"generated","params":{"file":"example\\click_counter\\out\\click_counter_prototype.html_bootstrap.dart"}}]
+Total time                                                   -- 305 ms
+build.dart finished [506 ms]
+
+---
+build.dart --machine --changed=test\location_test.dart
+Total time spent on web/dart_prototype.html                  -- 226 ms
+[{"method":"generated","params":{"file":"web\\out\\location_counter.dart.map"}}]
+[{"method":"generated","params":{"file":"web\\out\\dart_prototype.css"}}]
+[{"method":"generated","params":{"file":"web\\out\\dart_prototype.dart.map"}}]
+[{"method":"generated","params":{"file":"web\\out\\location_counter.dart"}}]
+[{"method":"generated","params":{"file":"web\\out\\dart_prototype.dart"}}]
+[{"method":"mapping","params":{"from":"web/dart_prototype.html","to":"web\\out\\dart_prototype.html"}}]
+[{"method":"generated","params":{"file":"web\\out\\dart_prototype.html"}}]
+[{"method":"generated","params":{"file":"web\\out\\dart_prototype.html_bootstrap.dart"}}]
+Total time spent on example/click_counter/click_counter_prototype.html --  33 ms
+[{"method":"generated","params":{"file":"example\\click_counter\\out\\click_counter_prototype.dart"}}]
+[{"method":"generated","params":{"file":"example\\click_counter\\out\\click_counter_prototype.css"}}]
+[{"method":"generated","params":{"file":"example\\click_counter\\out\\xclickcounter.dart"}}]
+[{"method":"generated","params":{"file":"example\\click_counter\\out\\xclickcounter.dart.map"}}]
+[{"method":"generated","params":{"file":"example\\click_counter\\out\\click_counter_prototype.dart.map"}}]
+[{"method":"mapping","params":{"from":"example/click_counter/click_counter_prototype.html","to":"example\\click_counter\\out\\click_counter_prototype.html"}}]
+[{"method":"generated","params":{"file":"example\\click_counter\\out\\click_counter_prototype.html"}}]
+[{"method":"generated","params":{"file":"example\\click_counter\\out\\click_counter_prototype.html_bootstrap.dart"}}]
+Total time                                                   -- 299 ms
+build.dart finished [494 ms]
+

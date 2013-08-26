@@ -1,5 +1,6 @@
 part of prototype_library;
 
 abstract class Factory<TargetType, SourceType> {
-  List<TargetType> create(SourceType);
+  TargetType create(SourceType);
+  List<TargetType> createList(SourceType);
 }
