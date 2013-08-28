@@ -1,0 +1,10 @@
+/example/click_counter/out
+/example/click_counter/packages
+/example/packages
+/packages
+/.buildlog
+
+/test/packages
+
+/web/packages
+/web/out
