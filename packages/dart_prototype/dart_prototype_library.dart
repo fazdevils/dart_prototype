@@ -5,14 +5,17 @@ import 'package:xml/xml.dart';
 
 // IoC
 part 'src/application_context.dart';
-part 'src/web_service.dart';
+
 
 // beans
-part 'src/location.dart';
+part 'src/bean/location.dart';
 
 // factories
-part 'src/abstract_factory.dart';
-part 'src/xml_factory/location_factory.dart';
+part 'src/factory/abstract_factory.dart';
+part 'src/factory/xml_factory/location_factory.dart';
+
+// services
+part 'src/service/web_service.dart';
 
 // mocks
 part 'src/mock/mock_web_service.dart';

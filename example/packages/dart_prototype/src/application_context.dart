@@ -8,5 +8,3 @@ class ApplicationContext {
       this.locationService);
       
 }
-
-ApplicationContext applicationContext;

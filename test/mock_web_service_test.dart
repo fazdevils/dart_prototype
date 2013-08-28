@@ -1,5 +1,5 @@
 import 'package:unittest/unittest.dart';
-import 'package:dart_prototype/dart_prototype_libary.dart';
+import 'package:dart_prototype/dart_prototype_library.dart';
 
 import 'dart:async';
 import 'dart:math';

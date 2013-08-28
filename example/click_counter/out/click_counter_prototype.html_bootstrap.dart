@@ -5,7 +5,7 @@ import 'package:logging/logging.dart';
 import 'click_counter_prototype.dart' as userMain;
 
 main() {
-  watcher.useObservers = true;
+  watcher.useObservers = false;
   Logger.root.onRecord.listen((record) {
     print('${record.level.name.toLowerCase()}: ${record.message}');
   });

@@ -2,7 +2,7 @@ library bootstrap;
 
 import 'package:web_ui/watcher.dart' as watcher;
 import 'package:logging/logging.dart';
-import 'dart_prototype.dart' as userMain;
+import 'dart_prototype.html.dart' as userMain;
 
 main() {
   watcher.useObservers = true;

@@ -6,17 +6,25 @@
     <title>Dart Prototype</title>
     <link rel="stylesheet" href="dart_prototype.css">
     
-    <!-- import the click-counter -->
     <link rel="import" href="location_container.html">
   </head>
   <body>
     <h1>Dart Prototype</h1>
     
     <div id="location_management_container">
-      <div is="location-counter" id="click_counter" count="{{startingCount}}"></div>
+        <location-container location-service="{{applicationContext.locationService}}"></location-container>
     </div>
 
-    <script type="application/dart" src="dart_prototype.dart"></script>
+    <script type="application/dart">
+      import 'package:dart_prototype/dart_prototype_library.dart';
+      
+      final ApplicationContext applicationContext = new ApplicationContext(
+        new MockLocationWebService(new LocationXmlFactory())
+//        new WebService(new LocationXmlFactory())
+      );
+      
+      main() { }      
+    </script>
     <script src="packages/browser/dart.js"></script>
   </body>
 </html>
