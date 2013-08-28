@@ -8,14 +8,20 @@
     <element name="location-container">
       <template>
         <div>
-          <ul id="location-list">
-            <template iterate="location in locations" >
-              <li>{{location.name}}</li>
-            </template>
-          </ul>        
+          <template instantiate="if locations.length > 0">
+            <ul id="location-list">
+              <template iterate="location in locations" >
+                <li>{{location.name}}</li>
+              </template>
+            </ul>        
+          </template>
+          <template instantiate="if empty">
+            <p>No locations found</p>      
+          </template>
         </div>
       </template>
       <script type="application/dart">
+        import 'dart:async';
         import 'package:web_ui/web_ui.dart';
         import 'package:dart_prototype/dart_prototype_library.dart';
    
@@ -24,21 +30,36 @@
           @observable
           WebService locationService;
   
+          @observable
           final ObservableList<Location> locations = new ObservableList<Location>();
        
           LocationContainer() {  
           }      
       
-          inserted() {
+          void inserted() {
             refreshLocations();
+            Duration duration = new Duration(seconds: 5);
+            new Timer(duration, () => setupAutoUpdate());
           }
       
           void refreshLocations() {
-            print('refreshing...');
             locationService.call("/locations").then((response) {
                 locations.clear();
                 locations.addAll(response);
+                print(locations.length);
             });
+          }
+          
+          void setupAutoUpdate() {
+            refreshLocations();
+            
+            Duration duration = new Duration(seconds: 2);
+            new Timer(duration, () => setupAutoUpdate());
+          }
+          
+          @observable
+          bool get empty {
+            return locations.length == 0;
           }
         }        
       </script>

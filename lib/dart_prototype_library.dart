@@ -1,6 +1,7 @@
 library prototype_library;
 
 import 'dart:async';
+import 'dart:math';
 import 'package:xml/xml.dart';
 
 // IoC
