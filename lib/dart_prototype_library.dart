@@ -18,4 +18,4 @@ part 'src/factory/xml_factory/location_factory.dart';
 part 'src/service/web_service.dart';
 
 // mocks
-part 'src/mock/mock_web_service.dart';
+part 'src/service/mock/mock_web_service.dart';
