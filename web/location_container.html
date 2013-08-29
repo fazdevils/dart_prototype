@@ -8,16 +8,25 @@
     <element name="location-container">
       <template>
         <div>
-          <template instantiate="if locations.length > 0">
-            <ul id="location-list">
-              <template iterate="location in locations" >
-                <li>{{location.name}}</li>
-              </template>
-            </ul>        
-          </template>
-          <template instantiate="if empty">
-            <p>No locations found</p>      
-          </template>
+          <span class="location-results-label">Results: {{locations.length}} {{locationLabel}} found</span>
+          <div class="location-results-operations">
+            <!-- TODO add 'sort' and 'add all' buttons here -->
+          </div>
+          <div class="location-results">
+            <template instantiate="if locations.length > 0">
+              <ul id="location-list">
+                <template iterate="location in locations" >
+                  <li>
+                    <span class="location-name">{{location.name}}</span>      
+                    <span class="location-address">{{location.address}}</span>                   
+                  </li>
+                </template>
+              </ul>        
+            </template>
+            <template instantiate="if empty">
+              <span class="empty">No locations found</span>      
+            </template>
+          </div>
         </div>
       </template>
       <script type="application/dart">
@@ -59,7 +68,16 @@
           
           @observable
           bool get empty {
-            return locations.length == 0;
+            return locations.isEmpty;
+          }
+
+          @observable
+          String get locationLabel {
+            if (locations.length == 1) {
+              return "Location";
+            } else {
+              return "Locations";
+            }
           }
         }        
       </script>
