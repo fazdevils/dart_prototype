@@ -16,7 +16,7 @@
             <template instantiate="if !unselectedLocations.isEmpty">
               <ul id="location-list">
                 <template iterate="location in unselectedLocations" >
-                  <li on-double-click="changeSelection(location)">
+                  <li on-double-click="changeSelection(location)" draggable="true" on-drag-start="dragLocation(location)">
                     <span class="location-name">{{location.name}}</span>      
                     <span class="location-address">{{location.address}}</span>                   
                   </li>
@@ -29,7 +29,7 @@
           </div>
         </div>
         
-        <div class="location_management_container">
+        <div class="location_management_container" on-drop="changeLocationSelection()" on-drag-over="dropUnselectedLocation($event)">
           <span class="location-results-label">Selected Locations: {{selectedLocations.length}}</span>
           <div class="location-results-operations">
             <!-- TODO add 'sort' and 'add all' buttons here -->
@@ -93,6 +93,21 @@
             selectedLocation.selected = !selectedLocation.selected;
           }
           
+          
+          Location draggedLocation;
+          void dragLocation(Location selectedLocation) {
+            print('dragging ' + selectedLocation.name);
+            draggedLocation = selectedLocation;
+          }
+
+          void dropUnselectedLocation(HTML.Event e) {
+             e.preventDefault();
+          }
+          
+          void changeLocationSelection() {
+             changeSelection(draggedLocation);
+          }
+          
           @observable
           List get selectedLocations {
             return locations.where((loc) => loc.selected).toList();
@@ -103,7 +118,7 @@
             return locations.where((loc) => !loc.selected).toList();
           }
 
-          @observable
+          @observable // this isn;t working properly. List.length is not an observable property I guess... not sure
           String get locationLabel {
             if (selectedLocations.length == 1) {
               return "Location";
