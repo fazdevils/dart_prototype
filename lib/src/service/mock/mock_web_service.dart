@@ -24,6 +24,7 @@ class MockLocationWebService implements WebService {
   final Factory _objectFactory;
   final RandomSleep _randomSleepMethod;
   bool firstTime = true;
+  int total = 0;
   
   /**
    * square brackets in a method declaration denote an optional parameter
@@ -41,6 +42,11 @@ class MockLocationWebService implements WebService {
     if (firstTime) {
       firstTime = false;
       locations = _objectFactory.createList(_mockXml);
+      total = locations.length; 
+      
+      while (total < 10) {
+        locations.addAll(_generateRandomLocations());
+      }
     } else {
       locations = _generateRandomLocations();
     }
@@ -58,11 +64,12 @@ class MockLocationWebService implements WebService {
     int numLocations = rnd.nextInt(10);
     
     List<Location> randomLocations = new List<Location>();
-    for (int i = 1; i < numLocations+1; ++i) {
-      String name = 'Location ' + i.toString();
-      String addr = 'Appt. ' + (i+100).toString() + ' Dart St';
-      int numZones = 25+i;
-      randomLocations.add(new Location(i, name, addr, numZones));
+    for (int i = 0; i < numLocations; ++i) {
+      ++total;
+      String name = 'Location ' + total.toString();
+      String addr = 'Appt. ' + (total+100).toString() + ' Dart St';
+      int numZones = 25+total;
+      randomLocations.add(new Location(total, name, addr, numZones));
     }  
     
     return randomLocations;

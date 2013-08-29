@@ -31,6 +31,7 @@
       </template>
       <script type="application/dart">
         import 'dart:async';
+        import 'dart:html' as HTML;
         import 'package:web_ui/web_ui.dart';
         import 'package:dart_prototype/dart_prototype_library.dart';
    
@@ -43,29 +44,31 @@
           final ObservableList<Location> locations = new ObservableList<Location>();
        
           LocationContainer() {  
-          }      
+          }            
       
           void inserted() {
             refreshLocations();
             Duration duration = new Duration(seconds: 5);
-            new Timer(duration, () => setupAutoUpdate());
+            
+            HTML.Element e = document.query('.location-results');
+            e.onScroll.listen((event) => getMoreLocations(e));
           }
       
           void refreshLocations() {
             locationService.call("/locations").then((response) {
-                locations.clear();
                 locations.addAll(response);
                 print(locations.length);
             });
           }
           
-          void setupAutoUpdate() {
-            refreshLocations();
-            
-            Duration duration = new Duration(seconds: 2);
-            new Timer(duration, () => setupAutoUpdate());
+          void getMoreLocations(HTML.Element e) {
+            double percentage = (e.scrollTop + e.offsetHeight) / e.scrollHeight;
+            if (percentage > .99) {
+              print("getting more locations");
+              refreshLocations();
+            }
           }
-          
+ 
           @observable
           bool get empty {
             return locations.isEmpty;
