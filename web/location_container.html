@@ -7,28 +7,51 @@
   <body>
     <element name="location-container">
       <template>
-        <div>
-          <span class="location-results-label">Results: {{locations.length}} {{locationLabel}} found</span>
+        <div class="location_management_container">
+          <span class="location-results-label">Results: {{unselectedLocations.length}} {{locationLabel}} found</span>
           <div class="location-results-operations">
             <!-- TODO add 'sort' and 'add all' buttons here -->
           </div>
-          <div class="location-results">
-            <template instantiate="if locations.length > 0">
+          <div class="location-results" id="location-results">
+            <template instantiate="if !unselectedLocations.isEmpty">
               <ul id="location-list">
-                <template iterate="location in locations" >
-                  <li>
+                <template iterate="location in unselectedLocations" >
+                  <li on-double-click="changeSelection(location)">
                     <span class="location-name">{{location.name}}</span>      
                     <span class="location-address">{{location.address}}</span>                   
                   </li>
                 </template>
               </ul>        
             </template>
-            <template instantiate="if empty">
+            <template instantiate="if unselectedLocations.isEmpty">
               <span class="empty">No locations found</span>      
             </template>
           </div>
         </div>
+        
+        <div class="location_management_container">
+          <span class="location-results-label">Selected Locations: {{selectedLocations.length}}</span>
+          <div class="location-results-operations">
+            <!-- TODO add 'sort' and 'add all' buttons here -->
+          </div>
+          <div class="location-results">
+            <template instantiate="if !selectedLocations.isEmpty">
+              <ul id="location-list">
+                <template iterate="location in selectedLocations" >
+                  <li on-double-click="changeSelection(location)">
+                    <span class="location-name">{{location.name}}</span>      
+                    <span class="location-address">{{location.address}}</span>                   
+                  </li>
+                </template>
+              </ul>        
+            </template>
+            <template instantiate="if selectedLocations.isEmpty">
+              <span class="empty">No locations selected</span>      
+            </template>
+          </div>
+        </div>
       </template>
+      
       <script type="application/dart">
         import 'dart:async';
         import 'dart:html' as HTML;
@@ -48,35 +71,41 @@
       
           void inserted() {
             refreshLocations();
-            Duration duration = new Duration(seconds: 5);
             
-            HTML.Element e = document.query('.location-results');
+            HTML.Element e = document.query('#location-results');
             e.onScroll.listen((event) => getMoreLocations(e));
           }
       
           void refreshLocations() {
             locationService.call("/locations").then((response) {
                 locations.addAll(response);
-                print(locations.length);
             });
           }
           
           void getMoreLocations(HTML.Element e) {
             double percentage = (e.scrollTop + e.offsetHeight) / e.scrollHeight;
             if (percentage > .99) {
-              print("getting more locations");
               refreshLocations();
             }
           }
  
+          void changeSelection(Location selectedLocation) {
+            selectedLocation.selected = !selectedLocation.selected;
+          }
+          
           @observable
-          bool get empty {
-            return locations.isEmpty;
+          List get selectedLocations {
+            return locations.where((loc) => loc.selected).toList();
+          }
+ 
+          @observable
+          List get unselectedLocations {
+            return locations.where((loc) => !loc.selected).toList();
           }
 
           @observable
           String get locationLabel {
-            if (locations.length == 1) {
+            if (selectedLocations.length == 1) {
               return "Location";
             } else {
               return "Locations";

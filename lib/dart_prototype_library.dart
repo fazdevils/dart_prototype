@@ -2,7 +2,9 @@ library prototype_library;
 
 import 'dart:async';
 import 'dart:math';
+import 'package:web_ui/observe.dart';
 import 'package:xml/xml.dart';
+
 
 // IoC
 part 'src/application_context.dart';
