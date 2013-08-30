@@ -7,7 +7,7 @@
   <body>
     <element name="location-container">
       <template>
-        <div class="location_management_container">
+        <div class="location_management_container" on-drop="changeLocationSelection()" on-drag-over="dropSelectedLocation($event)">
           <span class="location-results-label">Results: {{unselectedLocations.length}} {{locationLabel}} found</span>
           <div class="location-results-operations">
             <!-- TODO add 'sort' and 'add all' buttons here -->
@@ -37,8 +37,8 @@
           <div class="location-results">
             <template instantiate="if !selectedLocations.isEmpty">
               <ul id="location-list">
-                <template iterate="location in selectedLocations" >
-                  <li on-double-click="changeSelection(location)">
+                <template iterate="location in selectedLocations">
+                  <li on-double-click="changeSelection(location)" draggable="true" on-drag-start="dragLocation(location)">
                     <span class="location-name">{{location.name}}</span>      
                     <span class="location-address">{{location.address}}</span>                   
                   </li>
@@ -94,19 +94,29 @@
           }
           
           
+          /** Drag and drop - start */
           Location draggedLocation;
           void dragLocation(Location selectedLocation) {
-            print('dragging ' + selectedLocation.name);
             draggedLocation = selectedLocation;
           }
 
+          void dropSelectedLocation(HTML.Event e) {
+             if (draggedLocation.selected) { 
+              e.preventDefault();
+             }
+          }
+
           void dropUnselectedLocation(HTML.Event e) {
-             e.preventDefault();
+             if (!draggedLocation.selected) { 
+              e.preventDefault();
+             }
           }
           
           void changeLocationSelection() {
              changeSelection(draggedLocation);
           }
+          /** Drag and drop - end */
+
           
           @observable
           List get selectedLocations {
