@@ -16,9 +16,13 @@
             <template instantiate="if !unselectedLocations.isEmpty">
               <ul id="location-list">
                 <template iterate="location in unselectedLocations" >
-                  <li on-double-click="changeSelection(location)" draggable="true" on-drag-start="dragLocation(location)">
+                  <li class="location" on-click="toggleLocationInfo($event, location)" on-double-click="changeSelection(location)" draggable="true" on-drag-start="dragLocation(location)" >
                     <span class="location-name">{{location.name}}</span>      
-                    <span class="location-address">{{location.address}}</span>                   
+                    <span class="location-address">{{location.address}}</span>
+                    <div class="expanded-location-info hidden">
+                      Here's some extra information about {{location.name}}.<br/>
+                      It's not too exciting, but I wanted to have something to expand down.
+                    </div>
                   </li>
                 </template>
               </ul>        
@@ -41,6 +45,10 @@
                   <li on-double-click="changeSelection(location)" draggable="true" on-drag-start="dragLocation(location)">
                     <span class="location-name">{{location.name}}</span>      
                     <span class="location-address">{{location.address}}</span>                   
+                    <div class="expanded-location-info" style="max-height:0; height: auto; overflow: hidden">
+                      Here's some extra information about {{location.name}}.<br/>
+                      It's not too exciting, but I wanted to have something to expand down.
+                    </div>
                   </li>
                 </template>
               </ul>        
@@ -91,6 +99,38 @@
  
           void changeSelection(Location selectedLocation) {
             selectedLocation.selected = !selectedLocation.selected;
+          }
+          
+          void toggleLocationInfo(HTML.MouseEvent event, Location selectedLocation) {         
+            HTML.Element e = event.toElement as HTML.Node;
+            HTML.Element expandedLocatonInfoElement = getClildOrSiblingElement(e, 'expanded-location-info', 'location');
+            expandedLocatonInfoElement.classes.toggle('hidden');
+/*
+            selectedLocation.expanded = !selectedLocation.expanded;
+            if (selectedLocation.expanded) {
+              expandedLocatonInfoElement.style.maxHeight = "80px";
+            } else {
+              expandedLocatonInfoElement.style.maxHeight = "0px";
+            }
+             style="max-height:0; height: auto; overflow: hidden"
+ */
+          }
+          
+          HTML.Element getClildOrSiblingElement(HTML.Element e, String classname, String parentclassname) {
+            if (e.className == classname) {
+              return e;
+            }
+          
+            HTML.Element expandedLocatonInfoElement = e.query('.' + classname);
+            if (null != expandedLocatonInfoElement) {
+              return expandedLocatonInfoElement;
+            }
+            
+            if (e.className == parentclassname) {
+              return null;  // we've reached the parent and didn't find anything, give up...
+            }
+            
+            return getClildOrSiblingElement(e.parent, classname, parentclassname);
           }
           
           

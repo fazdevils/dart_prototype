@@ -82,3 +82,14 @@ h2.tagline {
   font-size: 12px;
   font-weight: bold;
 }
+
+.location_management_container .location-results ul li .expanded-location-info {
+  height: auto;
+  overflow: hidden;
+  max-height: 80px;
+  transition: max-height .5s ease;
+}
+
+.location_management_container .location-results ul li .expanded-location-info.hidden {
+  max-height: 0px;
+}

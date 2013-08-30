@@ -8,6 +8,7 @@ class Location {
   final int zones;
   
   bool selected = false;
+  bool expanded = false;
   
   Location(this.locationId, this.name, this.address, this.zones);
     
