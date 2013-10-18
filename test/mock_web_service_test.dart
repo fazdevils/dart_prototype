@@ -15,7 +15,8 @@ void main() {
       locationService.call("test url").then((response) {
           print('got request1 response!!!');
           locations = response;
-          expect(locations.length, equals(3));
+          expect(locations.length, greaterThan(7));
+          expect(locations.length, lessThan(17));
       });
       print('test1 done');
   });
@@ -29,7 +30,8 @@ void main() {
     locationService.call("test url").then((response) {
       print('got request2 response!!!');
       locations = response;
-      expect(locations.length, equals(3));
+      expect(locations.length, greaterThan(7));
+      expect(locations.length, lessThan(17));
     });
     randomSleep('test2 done').then((String message) => print(message));
 

@@ -66,10 +66,9 @@ class MockLocationWebService implements WebService {
     List<Location> randomLocations = new List<Location>();
     for (int i = 0; i < numLocations; ++i) {
       ++total;
-      String name = 'Location ' + total.toString();
+      String name = 'Dart Location ' + total.toString();
       String addr = 'Appt. ' + (total+100).toString() + ' Dart St';
-      int numZones = 25+total;
-      randomLocations.add(new Location(total, name, addr, numZones));
+      randomLocations.add(new Location(total, name, addr));
     }  
     
     return randomLocations;
@@ -78,18 +77,27 @@ class MockLocationWebService implements WebService {
   final String _mockXml = 
       "  <root>" +
       "    <locations>" +
-      "      <location id=\"1\" name=\"Century Grill\">" +
-      "        <address>318 Pearl Street Buffalo, NY 14202</address>" +
-      "        <zones>10</zones>" +   
+      "      <location id=\"1\" name=\"The Lodge\">" +
+      "        <address>79 West Chippewa Street Buffalo New York 14202</address>" +
       "      </location>"+
       "      <location id=\"2\" name=\"Pan American Grill\">" +
       "        <address>391 Washington Street Buffalo, NY 14202</address>" +
-      "        <zones>6</zones>" +   
       "      </location>" +
-      "      <location id=\"3\" name=\"Coffee Rostery\">" +
+      "      <location id=\"3\" name=\"Blue Monk\">" +
+      "        <address>727 Elmwood Ave  Buffalo, NY 14222</address>" +
+      "      </location>" +
+      "      <location id=\"4\" name=\"Coffee Rostery\">" +
       "        <address>350 Main Street Buffalo, NY 14202</address>" +
-      "        <zones>4</zones>" +   
       "      </location>" +
+      "      <location id=\"5\" name=\"Century Grill\">" +
+      "        <address>318 Pearl Street Buffalo, NY 14202</address>" +
+      "      </location>"+
+      "      <location id=\"6\" name=\"Pearl Street Grill & Brewery\">" +
+      "        <address>76 Pearl St  Buffalo, NY 14202</address>" +
+      "      </location>"+
+      "      <location id=\"7\" name=\"Liberty Hound\">" +
+      "        <address>1 Naval Park Cove, Buffalo, NY 14202</address>" +
+      "      </location>"+
       "    </locations>" +
       "  </root>";
 }

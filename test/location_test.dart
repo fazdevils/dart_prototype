@@ -14,7 +14,6 @@ void main() {
       expect(location.locationId, equals(1));
       expect(location.name, equals("Century Grill"));
       expect(location.address, equals("318 Pearl Street Buffalo, NY 14202"));
-      expect(location.zones, equals(10));
   });
   
   test('Parse XML List', (){
